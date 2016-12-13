@@ -13,6 +13,9 @@
 		D4EA08EA1DFFB3EB00F1CA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA08E81DFFB3EB00F1CA9D /* Main.storyboard */; };
 		D4EA08EC1DFFB3EB00F1CA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EA08EB1DFFB3EB00F1CA9D /* Assets.xcassets */; };
 		D4EA08EF1DFFB3EB00F1CA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA08ED1DFFB3EB00F1CA9D /* LaunchScreen.storyboard */; };
+		D4EA08F81DFFB8F800F1CA9D /* FenleiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA08F71DFFB8F800F1CA9D /* FenleiTableViewController.m */; };
+		D4EA08FB1DFFB90A00F1CA9D /* ShouchangTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA08FA1DFFB90A00F1CA9D /* ShouchangTableViewController.m */; };
+		D4EA08FE1DFFB91300F1CA9D /* MoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EA08FD1DFFB91300F1CA9D /* MoreTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		D4EA08EB1DFFB3EB00F1CA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4EA08EE1DFFB3EB00F1CA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4EA08F01DFFB3EB00F1CA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EA08F61DFFB8F800F1CA9D /* FenleiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FenleiTableViewController.h; sourceTree = "<group>"; };
+		D4EA08F71DFFB8F800F1CA9D /* FenleiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FenleiTableViewController.m; sourceTree = "<group>"; };
+		D4EA08F91DFFB90A00F1CA9D /* ShouchangTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShouchangTableViewController.h; sourceTree = "<group>"; };
+		D4EA08FA1DFFB90A00F1CA9D /* ShouchangTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShouchangTableViewController.m; sourceTree = "<group>"; };
+		D4EA08FC1DFFB91300F1CA9D /* MoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewController.h; sourceTree = "<group>"; };
+		D4EA08FD1DFFB91300F1CA9D /* MoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				D4EA08E51DFFB3EB00F1CA9D /* ViewController.h */,
 				D4EA08E61DFFB3EB00F1CA9D /* ViewController.m */,
 				D4EA08E81DFFB3EB00F1CA9D /* Main.storyboard */,
+				D4EA08F61DFFB8F800F1CA9D /* FenleiTableViewController.h */,
+				D4EA08F71DFFB8F800F1CA9D /* FenleiTableViewController.m */,
+				D4EA08F91DFFB90A00F1CA9D /* ShouchangTableViewController.h */,
+				D4EA08FA1DFFB90A00F1CA9D /* ShouchangTableViewController.m */,
+				D4EA08FC1DFFB91300F1CA9D /* MoreTableViewController.h */,
+				D4EA08FD1DFFB91300F1CA9D /* MoreTableViewController.m */,
 				D4EA08EB1DFFB3EB00F1CA9D /* Assets.xcassets */,
 				D4EA08ED1DFFB3EB00F1CA9D /* LaunchScreen.storyboard */,
 				D4EA08F01DFFB3EB00F1CA9D /* Info.plist */,
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EA08F81DFFB8F800F1CA9D /* FenleiTableViewController.m in Sources */,
 				D4EA08E71DFFB3EB00F1CA9D /* ViewController.m in Sources */,
 				D4EA08E41DFFB3EB00F1CA9D /* AppDelegate.m in Sources */,
 				D4EA08E11DFFB3EB00F1CA9D /* main.m in Sources */,
+				D4EA08FE1DFFB91300F1CA9D /* MoreTableViewController.m in Sources */,
+				D4EA08FB1DFFB90A00F1CA9D /* ShouchangTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

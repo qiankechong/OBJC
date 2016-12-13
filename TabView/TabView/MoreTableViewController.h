@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MoreTableViewController.h
 //  TabView
 //
 //  Created by Jonnyqian on 2016/12/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface MoreTableViewController : UITableViewController
 
 @end
-
