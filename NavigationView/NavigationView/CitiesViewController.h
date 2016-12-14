@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CitiesViewController : UITableViewController
-
+@property   (nonatomic,weak) NSArray *listData;
 @end

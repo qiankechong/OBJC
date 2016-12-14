@@ -12,19 +12,22 @@
         <!--Root View Controller-->
         <scene sceneID="tVH-AJ-x7b">
             <objects>
-                <tableViewController id="Jn9-vR-Tue" sceneMemberID="viewController">
+                <tableViewController id="Jn9-vR-Tue" customClass="ViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wTH-1k-DD4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1nX-r5-U3R">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="CellIdentifier" id="1nX-r5-U3R">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1nX-r5-U3R" id="bEZ-Ci-kym">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="P7q-2f-Vfp" kind="show" identifier="ShowSelectedProvince" id="eeO-nY-Svl"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -33,39 +36,46 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="m8E-jm-3Jp"/>
-                    <connections>
-                        <segue destination="3d5-vf-bfY" kind="show" id="2Fe-C2-gXD"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="foT-tm-3ru" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="638" y="323"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="YVV-33-udi">
+        <!--Cities View Controller-->
+        <scene sceneID="yPG-g7-LT1">
             <objects>
-                <viewController id="3d5-vf-bfY" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xmZ-if-EcQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="dru-hr-NMa"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="AaS-9X-fKX">
+                <tableViewController id="P7q-2f-Vfp" customClass="CitiesViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yEx-We-xR7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="fwx-Ec-HOW" kind="show" id="CIu-bQ-wdJ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zuc-04-5c4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="detailDisclosureButton" indentationWidth="10" reuseIdentifier="CellIdentifier" id="fYJ-X0-D10">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fYJ-X0-D10" id="tjh-cy-80k">
+                                    <rect key="frame" x="0.0" y="0.0" width="253" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="fwx-Ec-HOW" kind="show" identifier="ShowSelectedCity" id="CZc-0k-Flk"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="P7q-2f-Vfp" id="WYv-NZ-Dp6"/>
+                            <outlet property="delegate" destination="P7q-2f-Vfp" id="jDI-Os-7rP"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1y-4C-fAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1404" y="323"/>
+            <point key="canvasLocation" x="1407" y="324"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="i63-MF-Bd6">
             <objects>
-                <viewController id="fwx-Ec-HOW" sceneMemberID="viewController">
+                <viewController id="fwx-Ec-HOW" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oWf-3n-VgF"/>
                         <viewControllerLayoutGuide type="bottom" id="kZA-IR-VWX"/>

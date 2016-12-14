@@ -15,6 +15,7 @@
 		D45D6CD61DFFE8F400DA4956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45D6CD41DFFE8F400DA4956 /* LaunchScreen.storyboard */; };
 		D45D6CDF1DFFE94B00DA4956 /* CitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45D6CDE1DFFE94B00DA4956 /* CitiesViewController.m */; };
 		D45D6CE21DFFEAB800DA4956 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D45D6CE11DFFEAB800DA4956 /* DetailViewController.m */; };
+		D4B7A4DE1E00D6090075CC49 /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4B7A4DD1E00D6090075CC49 /* provinces_cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D45D6CDE1DFFE94B00DA4956 /* CitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesViewController.m; sourceTree = "<group>"; };
 		D45D6CE01DFFEAB800DA4956 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D45D6CE11DFFEAB800DA4956 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D4B7A4DD1E00D6090075CC49 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				D45D6CCF1DFFE8F400DA4956 /* Main.storyboard */,
 				D45D6CE01DFFEAB800DA4956 /* DetailViewController.h */,
 				D45D6CE11DFFEAB800DA4956 /* DetailViewController.m */,
+				D4B7A4DD1E00D6090075CC49 /* provinces_cities.plist */,
 				D45D6CDD1DFFE94B00DA4956 /* CitiesViewController.h */,
 				D45D6CDE1DFFE94B00DA4956 /* CitiesViewController.m */,
 				D45D6CD21DFFE8F400DA4956 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				D45D6CD61DFFE8F400DA4956 /* LaunchScreen.storyboard in Resources */,
 				D45D6CD31DFFE8F400DA4956 /* Assets.xcassets in Resources */,
 				D45D6CD11DFFE8F400DA4956 /* Main.storyboard in Resources */,
+				D4B7A4DE1E00D6090075CC49 /* provinces_cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 				D45D6CDC1DFFE8F400DA4956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
