@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "SecondTableViewController.h"
 
 @interface RootViewController ()
 
@@ -42,6 +43,8 @@
      NSArray *allKeys3 = [dictionary2 allValues];
      NSLog(@"allValues:%@", allKeys3);
      self.allCities = @{@"key1":@"value1", @"key2":@"value2"};
+     self.allKeys  = [self.allCities allKeys ];
+     
      NSDictionary *
      __allCities =@[
                     @{
@@ -106,11 +109,12 @@
 {
     return [_sectionTitleArray objectAtIndex:section];
 }
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     // Configure the cell...
-    static NSString *cellIdentifier = @"reuseIdentifier";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+    static NSString *cellIdentifier = @"CellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     return cell;
 }
@@ -150,14 +154,26 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if([segue.identifier isEqualToString:@"ShowSecondView"]) {
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        NSInteger selectedIndex = indexPath.row;
+        
+        SecondTableViewController *secondViewController = segue.destinationViewController;
+        NSString *selectName = self.allKeys[selectedIndex];
+        secondViewController.listData = self.allCities[selectName];
+        secondViewController.title = selectName;
+        
+    }
+
 }
-*/
+
 
 @end

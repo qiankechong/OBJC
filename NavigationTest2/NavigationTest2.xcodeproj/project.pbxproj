@@ -12,9 +12,9 @@
 		D40634DF1E0112430097A91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40634DD1E0112430097A91E /* Main.storyboard */; };
 		D40634E11E0112430097A91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40634E01E0112430097A91E /* Assets.xcassets */; };
 		D40634E41E0112430097A91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40634E21E0112430097A91E /* LaunchScreen.storyboard */; };
-		D40634ED1E0112F60097A91E /* SendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634EC1E0112F60097A91E /* SendViewController.m */; };
 		D40634F01E0113010097A91E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634EF1E0113010097A91E /* ThirdViewController.m */; };
 		D40634F31E01151B0097A91E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634F21E01151B0097A91E /* RootViewController.m */; };
+		D40634F61E024FF60097A91E /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634F51E024FF60097A91E /* SecondTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		D40634E01E0112430097A91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40634E31E0112430097A91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D40634E51E0112430097A91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D40634EB1E0112F60097A91E /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
-		D40634EC1E0112F60097A91E /* SendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendViewController.m; sourceTree = "<group>"; };
 		D40634EE1E0113010097A91E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		D40634EF1E0113010097A91E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		D40634F11E01151B0097A91E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D40634F21E01151B0097A91E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D40634F41E024FF60097A91E /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		D40634F51E024FF60097A91E /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 				D40634F11E01151B0097A91E /* RootViewController.h */,
 				D40634F21E01151B0097A91E /* RootViewController.m */,
 				D40634DD1E0112430097A91E /* Main.storyboard */,
-				D40634EB1E0112F60097A91E /* SendViewController.h */,
-				D40634EC1E0112F60097A91E /* SendViewController.m */,
+				D40634F41E024FF60097A91E /* SecondTableViewController.h */,
+				D40634F51E024FF60097A91E /* SecondTableViewController.m */,
 				D40634EE1E0113010097A91E /* ThirdViewController.h */,
 				D40634EF1E0113010097A91E /* ThirdViewController.m */,
 				D40634E01E0112430097A91E /* Assets.xcassets */,
@@ -160,11 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40634ED1E0112F60097A91E /* SendViewController.m in Sources */,
 				D40634F01E0113010097A91E /* ThirdViewController.m in Sources */,
 				D40634F31E01151B0097A91E /* RootViewController.m in Sources */,
 				D40634D91E0112430097A91E /* AppDelegate.m in Sources */,
 				D40634D61E0112430097A91E /* main.m in Sources */,
+				D40634F61E024FF60097A91E /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +319,7 @@
 				D40634EA1E0112430097A91E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
