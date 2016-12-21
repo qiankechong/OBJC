@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ThirdViewController : UIViewController
-
+@property(strong,nonatomic)NSValue *number;//接收来自A  controller传来的值
 @end

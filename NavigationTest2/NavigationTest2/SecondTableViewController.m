@@ -7,6 +7,7 @@
 //
 
 #import "SecondTableViewController.h"
+#import "ThirdViewController.h"
 
 @interface SecondTableViewController ()
 
@@ -21,12 +22,12 @@
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+     self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _secondSectionTitleArray = [NSArray arrayWithObjects:@"1-10",@"11-20",@"21-30",@"31-40",@"41-50",@"51-60",@"61-70",@"71-80",@"81-90",@"91-100", nil];
-    self.title = @"Second Tab view";
+  //  self.title = @"Second Tab view";
       self.secondCities = @{@"key2":@"value12", @"key22":@"value22"};
     self.listData = @[@"one",@"two",@"three",@"four"];
-
+    NSLog(@"self.listData:%@",self.listData);
 
 }
 
@@ -39,14 +40,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    NSLog(@"second numberOfSectionsInTableView %lu",self.secondCities.count);
+//    NSLog(@"second numberOfSectionsInTableView %lu",self.secondCities.count);
     return self.secondCities.count;//Dictionary.count;
     //return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    NSLog(@"second numberOfRowsInSection %lu",self.secondCities.count);
+  //  NSLog(@"second numberOfRowsInSection %lu",self.secondCities.count);
     return self.secondCities.count;//Dictionary.count;
 
   //  return 0;
@@ -56,7 +57,7 @@
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    NSLog(@"titleForHeaderInSection%@:",[_secondSectionTitleArray objectAtIndex:section]);
+ //   NSLog(@"titleForHeaderInSection%@:",[_secondSectionTitleArray objectAtIndex:section]);
     return [_secondSectionTitleArray objectAtIndex:section];
 }
 
@@ -68,9 +69,18 @@
     // Configure the cell...
     NSInteger row = [indexPath row];
     NSDictionary   *dict = self.listData[row];
-    cell.textLabel.text = dict[@"name"];
-    
+    NSLog(@"listData[name:%@ row@%ld",self.listData[row],row);
+
+     cell.textLabel.text = self.listData[row];
+   // NSLog(@"dict[name:%@",dict[@"name"]);
+   // NSLog(@"cell.textLabel.text:%@",cell.textLabel.text);
+
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+{
+    NSLog(@"select indexPath.row:%ld,.section:%ld",indexPath.row,indexPath.section);
 }
 
 
@@ -108,14 +118,28 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    NSLog(@"触发该场景切换的sender对象的类型是:%@",[sender class]);
+    
+#pragma mark - 方法一,使用KVC给B 也就是目标场景传值
+    //UIViewController *thirdViewController =[segue destinationViewController];
+    UIViewController *destinationController=[segue destinationViewController];
+    
+   // [thirdViewController setValue:@119 forKey:@number];
+    [destinationController setValue:@"119" forKey:@"number"];
+    
+#pragma mark - 方法2,使用属性传值,需导入相关的类.h
+     ThirdViewController *bController=[segue destinationViewController];
+       bController.number=@"188";
+  
+
 }
-*/
+
 
 @end

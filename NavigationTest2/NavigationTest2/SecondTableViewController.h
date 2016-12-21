@@ -12,5 +12,5 @@
 @property(nonatomic,strong )NSDictionary *secondCities;
 @property(nonatomic,strong ) NSArray *secondKeys;
 @property(nonatomic,weak)NSArray *secondSectionTitleArray;
-@property   (nonatomic,weak) NSArray *listData;
+@property(nonatomic,strong) NSArray *listData;
 @end

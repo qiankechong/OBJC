@@ -24,15 +24,25 @@
      //初始化两个元素
      NSDictionary *dictionary2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"11", @"1", @"22", @"2", nil];
      //根据一个字典进行初始化
-     NSDictionary *dictionary3 = [[NSDictionary alloc] initWithDictionary:dictionary2];
+ //    NSDictionary *dictionary3 = [[NSDictionary alloc] initWithDictionary:dictionary2];
      //以文件内容初始化字典
      NSString *path = @"/../.../1.plist";
      NSDictionary *dictionary4 = [[NSDictionary alloc] initWithContentsOfFile:path];
      NSDictionary * dict = @{@"key1":@"value1", @"key2":@"value2"};
 
-    
-     NSLog(@"____%@", dictionary4);
+     NSArray *arr = @[@"1",@"one",@"3",@4,@"ONE"];
+     NSLog(@"arr = %@",arr);
+     NSLog(@"dict = %@",dict);
      
+     NSDictionary * dict2;
+     NSInteger i;//
+     for (i=0; i<arr.count; i++) {
+         dict2 = arr[i];
+         NSLog(@"arr = %@",arr[i]);
+        // NSDictionary   *dict = self.listData[row];
+     }
+     NSLog(@"dict%@", dict);
+     NSLog(@"dict2%@", dict2);
      //获取所有键的集合
      NSArray *allKeys = [dictionary allKeys];
      NSLog(@"keys____%@", allKeys);
@@ -78,6 +88,9 @@
      }
      
     self.title = @"navigation test2";
+     UIColor *color = [[UIColor alloc]initWithRed:0.0 green:0.0 blue:1.0 alpha:1];//通过RGB来定义自己的颜色
+     UIColor *color1 = [UIColor greenColor];
+     [self.tableView setSeparatorColor:color1];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -90,7 +103,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 //#warning Incomplete implementation, return the number of sections
    // NSInteger i = 3;
-    NSLog(@"numberOfSectionsInTableView %lu",self.allCities.count);
+   // NSLog(@"numberOfSectionsInTableView %lu",self.allCities.count);
     return self.allCities.count;//Dictionary.count;
 }
 
@@ -99,8 +112,8 @@
   
  //   NSDictionary *dic = __allCities[section];
    // NSArray *arr = dic[@"cities"];
-      NSLog(@"numberOfRowsInSection: %lu",self.allCities.count);
-    return  1;//self.allCities.count;//arr.count;
+ //     NSLog(@"numberOfRowsInSection: %lu",self.allCities.count);
+    return  self.allCities.count;//arr.count;
 
    // return i;
 }
@@ -115,8 +128,35 @@
     // Configure the cell...
     static NSString *cellIdentifier = @"CellIdentifier";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+ //   cell.color
+   // cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+    static NSInteger i = 0;
     
-    return cell;
+    NSLog(@"ggl %ld",i++);
+    NSLog(@"indexPath %lu",indexPath.row);
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld",i];
+
+    switch (i) {
+        case 1:
+            cell.backgroundColor = [UIColor redColor];
+         //   cell.textLabel.text = [NSString stringWithFormat:@"%d",i];
+
+            break;
+        case 2:
+            cell.backgroundColor = [UIColor greenColor];
+            
+            break;
+        case 3:
+            cell.backgroundColor = [UIColor blueColor];
+            
+            break;
+        default:
+            cell.backgroundColor = [UIColor lightGrayColor];
+
+            break;
+    }
+    
+        return cell;
 }
 
 
@@ -169,7 +209,11 @@
         SecondTableViewController *secondViewController = segue.destinationViewController;
         NSString *selectName = self.allKeys[selectedIndex];
         secondViewController.listData = self.allCities[selectName];
+        NSLog(@"indexPath.row-- %lu",indexPath.row);
+        
         secondViewController.title = selectName;
+        //NSLog(@"selectName --%@",selectName);
+        
         
     }
 
