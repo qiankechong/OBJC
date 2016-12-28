@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5C51A27A7E85F97A67CF565D6DC4A2F52FAD1FB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C8FF0DF04D5962267F02510262395D61942E8AEF" : 9223372036854775807,
+    "5C51A27A7E85F97A67CF565D6DC4A2F52FAD1FB2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E74B1B01-6085-42D5-996F-C8802A83987F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C8FF0DF04D5962267F02510262395D61942E8AEF" : "",
+    "5C51A27A7E85F97A67CF565D6DC4A2F52FAD1FB2" : "medicCalc\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "medicClac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "medicClac\/medicClac.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiankechong\/OBJC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C51A27A7E85F97A67CF565D6DC4A2F52FAD1FB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiankechong\/iOStab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8FF0DF04D5962267F02510262395D61942E8AEF"
+    }
+  ]
+}
