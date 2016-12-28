@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"test svn ");
+    
+    NSLog(@"test svn ");NSLog(@"test svn ");
+    NSLog(@"test create branch ");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
