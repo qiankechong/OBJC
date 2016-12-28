@@ -161,6 +161,17 @@
     return [self.dictSecondlevel count];
 
 }
+//设置section 高度
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 30;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 40;
+}
+
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
@@ -200,7 +211,8 @@
 
     cell.textLabel.text =self.secondAllKeys[row];//[NSString stringWithFormat:@"%ld",row];
   
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+   // cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
     
         return cell;
 }
@@ -239,19 +251,6 @@
     return YES;
 }
 */
-/*
-#pragma mark - 实现表视图委托方法
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    NSInteger selectedIndex = [indexPath row];
-    
-    SecondTableViewController *citiesViewController = [[SecondTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    NSString *selectName = self.arrAllKeys[selectedIndex];
-    citiesViewController.listData = self.allCities[selectName];
-    citiesViewController.title = selectName;
-    NSLog(@"didSelectRowAtIndexPath");
-  //  [self.navigationController pushViewController:citiesViewController animated:TRUE];
-}*/
 
 #pragma mark - Navigation
 
@@ -265,20 +264,34 @@
         NSInteger selectedIndex = indexPath.row;
         
         SecondTableViewController *secondViewController = segue.destinationViewController;
-        NSString *selectName = self.arrAllKeys[selectedIndex];
         
-        secondViewController.listData = self.allcatagollys[selectName];
-        NSLog(@"secondViewController.listData%@",secondViewController.listData);
-    
-      //   for(NSString *s in [])
-//        NSDictionary * mydict =  secondViewController.listData[0];
+        NSString *key = [self.arrAllKeys objectAtIndex:indexPath.section];
+        
+  //    NSLog(@"nbr secondAllKeys %@ section %ld",key,section);
+        
+        self.dictSecondlevel = [self.allcatagollys objectForKey:key];
+        NSLog(@"pfs self.dictSecondlevel%@",self.dictSecondlevel);
+        
+        NSArray * secondDictArry = [self.dictSecondlevel allKeys];
+        NSLog(@"pfs secondDictArry%@",secondDictArry);
+        
+        
+//        NSString *key2 = [secondDictArry objectAtIndex:indexPath.row];
 //        
-//        NSLog(@"secondViewController mydict%@",mydict);
-//  
+//        NSLog(@"secondViewController key2%@",key2);
+//
+        NSString *selectName = secondDictArry[selectedIndex];
+        
+        secondViewController.dictSecondCata = self.dictSecondlevel;
+        
+        
+        NSDictionary *dictThirdlevel = [self.dictSecondlevel objectForKey:selectName];
+        
+        secondViewController.dictSecondCata = dictThirdlevel;
         
         secondViewController.title = selectName;
-        NSLog(@"selectName --%@",selectName);
         
+        NSLog(@"selectName --%@",selectName);
         
     }
 

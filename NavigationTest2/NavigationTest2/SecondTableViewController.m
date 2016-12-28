@@ -44,20 +44,16 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-//    NSLog(@"second numberOfSectionsInTableView %lu",self.secondCities.count);
- //   return self..count;//Dictionary.count;
-    //return 0;NSLog(@"count %ld",[self.listData count]);
-    return 1; //;[self.listData count];
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
   //  NSLog(@"second numberOfRowsInSection %lu",self.secondCities.count);
   //  return self.secondCities.count;//Dictionary.count;
-    NSLog(@"count  arrAllKeys %ld",[self.listData count]);
-    return [self.listData count];
-  //  return [self.arrAllKeys count];
-  //  return 0;
+    NSLog(@"count  dictSecondCata %@",self.dictSecondCata);
+    NSLog(@"count  dictSecondCata %ld",[self.dictSecondCata count]);
+    return [self.dictSecondCata count];
 }
 
 
@@ -88,9 +84,11 @@
 //    
 //    NSDictionary   *dict1 = self.listData[0];
 //    NSLog(@"listData 2 dict1%@",dict1);
-//    
+//
+    NSArray *arryTitleName  = [self.dictSecondCata allKeys];
     
-   //  NSLog(@"listData[name:%@ ",[self.listData objectAtIndex:0]);
+    
+    NSLog(@"listData[name:%@ ",arryTitleName);
 
     
     

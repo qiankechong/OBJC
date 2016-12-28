@@ -6,22 +6,61 @@
 	<dict>
 		<key>麻醉学</key>
 		<dict>
-			<key>name</key>
-			<string>麻醉</string>
-			<key>New item - 2</key>
-			<string>12</string>
-			<key>New item - 3</key>
-			<string>13</string>
-			<key>New item - 4</key>
-			<string>14</string>
+			<key>烧伤面积（九分法）</key>
+			<dict/>
+			<key>静脉补液滴速</key>
+			<dict/>
+			<key>复苏剂量（儿科）</key>
+			<dict/>
+			<key>GOLD分级</key>
+			<dict/>
+			<key>Mallampati分级</key>
+			<dict/>
+			<key>Ramsay镇静水平评分</key>
+			<dict>
+				<key>New item - 2</key>
+				<string></string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+			<key>ASA分级</key>
+			<dict>
+				<key>New item - 2</key>
+				<string></string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+			<key>心输出量（超声）</key>
+			<dict>
+				<key>New item - 2</key>
+				<string></string>
+				<key>New item</key>
+				<string></string>
+			</dict>
+			<key>delta脉压</key>
+			<dict>
+				<key>New item</key>
+				<string></string>
+				<key>New item - 2</key>
+				<string></string>
+			</dict>
 		</dict>
 		<key>创伤外科</key>
 		<dict>
-			<key>name</key>
-			<string>创伤</string>
+			<key>修订创伤评分</key>
+			<dict/>
+			<key>美国X线程序应急应用研究颈椎成果</key>
+			<dict/>
+			<key>加拿大脊椎规则</key>
+			<dict/>
 		</dict>
 		<key>毒理学</key>
-		<dict/>
+		<dict>
+			<key>国王学院标准</key>
+			<string></string>
+			<key>醋氨酚过量和乙酰半胱氨酸剂量</key>
+			<string></string>
+		</dict>
 		<key>外科</key>
 		<dict/>
 		<key>肺病科</key>
@@ -57,36 +96,168 @@
 		<dict>
 			<key>New item</key>
 			<string>123</string>
+			<key>New item - 3</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
 		</dict>
 		<key>神经系统</key>
-		<dict/>
+		<dict>
+			<key>ASIA损伤分级</key>
+			<dict/>
+			<key>旧金山昏厥严重预后预测评分</key>
+			<dict/>
+			<key>根据白蛋白或肾衰竭校准苯妥英钠</key>
+			<dict/>
+			<key>PECARN儿童急症医疗应用研究</key>
+			<dict/>
+			<key>美国国立卫生研究院卒中量表</key>
+			<dict/>
+			<key>美国x线成像应急应用研究颈椎成像</key>
+			<dict/>
+			<key>新奥尔良头部创伤规则</key>
+			<dict/>
+			<key>脑内出血评分</key>
+			<dict/>
+			<key>蛛网膜下腔出血分级</key>
+			<dict/>
+			<key>肝性脑病临床分级</key>
+			<dict/>
+			<key>格拉斯哥昏迷评分</key>
+			<dict/>
+			<key>根据红细胞计数校准脑脊液白细胞</key>
+			<dict/>
+			<key>心房纤颤卒中风险CHADS2评分</key>
+			<dict/>
+			<key>房颤患者卒中预防风险CHADS-V</key>
+			<dict/>
+			<key>加拿大头部CT规则</key>
+			<dict/>
+			<key>加拿大脊椎规则</key>
+			<dict/>
+			<key>一过性脑缺血发作ABCD²评分</key>
+			<dict/>
+		</dict>
 		<key>肾脏系统</key>
-		<dict/>
+		<dict>
+			<key>肾小管浓度梯度计算</key>
+			<dict/>
+			<key>低钠血症的钠缺乏量计算</key>
+			<dict/>
+			<key>低钠血症钠校正率</key>
+			<dict/>
+			<key>血清渗透压</key>
+			<dict/>
+			<key>儿童的入量和出量（每公斤和每小时）</key>
+			<dict/>
+			<key>MDRD肌酐清除率计算公式</key>
+			<dict/>
+			<key>维持液体计算</key>
+			<dict/>
+			<key>高钙血患者游离水缺乏量计算</key>
+			<dict/>
+			<key>低蛋白白血症患者钙浓度校正</key>
+			<dict/>
+			<key>肌酸酐清除率</key>
+			<dict/>
+			<key>肺泡-动脉氧分压差</key>
+			<dict/>
+			<key>尿素排泄分数</key>
+			<dict/>
+			<key>钠排泄分数</key>
+			<dict/>
+			<key>镁排泄分数</key>
+			<dict/>
+			<key>钙排泄分数</key>
+			<dict/>
+			<key>阴离子间隙</key>
+			<dict/>
+		</dict>
 		<key>肌肉骨骼系统</key>
-		<dict/>
+		<dict>
+			<key>New item - 2</key>
+			<string></string>
+			<key>New item</key>
+			<string></string>
+		</dict>
 		<key>免疫系统</key>
-		<dict/>
+		<dict>
+			<key>New item - 4</key>
+			<string></string>
+			<key>New item - 3</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
+			<key>New item</key>
+			<string></string>
+		</dict>
 		<key>血液系统</key>
-		<dict/>
+		<dict>
+			<key>New item - 5</key>
+			<string></string>
+			<key>New item - 4</key>
+			<string></string>
+			<key>New item - 3</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
+			<key>New item</key>
+			<string></string>
+		</dict>
 		<key>内分泌代谢系统</key>
-		<dict/>
+		<dict>
+			<key>New item - 6</key>
+			<string></string>
+			<key>New item - 5</key>
+			<string></string>
+			<key>New item - 4</key>
+			<string></string>
+			<key>New item - 3</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
+			<key>New item</key>
+			<string></string>
+		</dict>
 		<key>心脏系统</key>
-		<dict/>
+		<dict>
+			<key>房颤患者</key>
+			<dict/>
+			<key>New item - 5</key>
+			<string></string>
+			<key>New item - 4</key>
+			<string></string>
+			<key>New item - 3</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
+			<key>New item</key>
+			<string></string>
+			<key>肺泡-动脉氧分压差</key>
+			<dict/>
+		</dict>
 	</dict>
 	<key>通用</key>
 	<dict>
 		<key>医学通用公式</key>
-		<array>
-			<string></string>
-			<string>验后概率（sn/sp）</string>
-			<string>似然比（LR）</string>
-			<string>比值比-概率</string>
-			<string>小儿气管插管的管道规则</string>
-			<string>链球菌咽炎的修正Centor评分</string>
-			<string>体质指数和体表面积</string>
-			<string>贝叶斯定理灵敏度、特异性及概率</string>
-			<string>年龄</string>
-		</array>
+		<dict>
+			<key>验后概率（sn/sp）</key>
+			<dict/>
+			<key>似然比（LR）</key>
+			<dict/>
+			<key>比值比-概率</key>
+			<dict/>
+			<key>小儿气管插管的管道规则</key>
+			<dict/>
+			<key>链球菌咽炎的修正Centor评分</key>
+			<dict/>
+			<key>体质指数和体表面积</key>
+			<dict/>
+			<key>贝叶斯定理灵敏度、特异性及概率</key>
+			<dict/>
+			<key>年龄</key>
+			<dict/>
+		</dict>
 	</dict>
 </dict>
 </plist>
