@@ -1,30 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
-	<string></string>
-	<string></string>
-	<string></string>
-	<string></string>
-	<integer>0</integer>
-	<array>
-		<string></string>
-		<string></string>
-		<string></string>
-	</array>
+<dict>
+	<key>专科</key>
 	<dict>
-		<key>New item</key>
-		<string></string>
-		<key>New item - 2</key>
-		<string></string>
-		<key>New item - 3</key>
-		<string></string>
+		<key>麻醉学</key>
+		<dict>
+			<key>name</key>
+			<string>麻醉</string>
+			<key>New item - 2</key>
+			<string>12</string>
+			<key>New item - 3</key>
+			<string>13</string>
+			<key>New item - 4</key>
+			<string>14</string>
+		</dict>
+		<key>创伤外科</key>
+		<dict>
+			<key>name</key>
+			<string>创伤</string>
+		</dict>
+		<key>毒理学</key>
+		<dict/>
+		<key>外科</key>
+		<dict/>
+		<key>肺病科</key>
+		<dict/>
+		<key>儿科学</key>
+		<dict/>
+		<key>矫形外科</key>
+		<dict/>
+		<key>妇产科</key>
+		<dict/>
+		<key>神经病学</key>
+		<dict/>
+		<key>肾脏病学</key>
+		<dict/>
+		<key>传染病学</key>
+		<dict/>
+		<key>肝脏病学</key>
+		<dict/>
+		<key>血液病学/肿瘤学</key>
+		<dict/>
+		<key>肠胃病学</key>
+		<dict/>
+		<key>内分泌学</key>
+		<dict/>
+		<key>危重病人医疗</key>
+		<dict/>
+		<key>心脏病学</key>
+		<dict/>
 	</dict>
-	<string></string>
-	<string></string>
-	<string></string>
-	<string></string>
-	<string></string>
-	<string></string>
-</array>
+	<key>系统</key>
+	<dict>
+		<key>呼吸系统</key>
+		<dict>
+			<key>New item</key>
+			<string>123</string>
+		</dict>
+		<key>神经系统</key>
+		<dict/>
+		<key>肾脏系统</key>
+		<dict/>
+		<key>肌肉骨骼系统</key>
+		<dict/>
+		<key>免疫系统</key>
+		<dict/>
+		<key>血液系统</key>
+		<dict/>
+		<key>内分泌代谢系统</key>
+		<dict/>
+		<key>心脏系统</key>
+		<dict/>
+	</dict>
+	<key>通用</key>
+	<dict>
+		<key>医学通用公式</key>
+		<array>
+			<string></string>
+			<string>验后概率（sn/sp）</string>
+			<string>似然比（LR）</string>
+			<string>比值比-概率</string>
+			<string>小儿气管插管的管道规则</string>
+			<string>链球菌咽炎的修正Centor评分</string>
+			<string>体质指数和体表面积</string>
+			<string>贝叶斯定理灵敏度、特异性及概率</string>
+			<string>年龄</string>
+		</array>
+	</dict>
+</dict>
 </plist>

@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CQh-YJ-oio" id="hjl-Ct-ahM">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" red="0.652829246077961" green="0.52750142768512631" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </tableViewCellContentView>
@@ -103,7 +103,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.98418567495245601" green="1" blue="0.57866396815310572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
-                                    <segue destination="ogT-q7-Eyb" kind="show" identifier="ShowSecondView" id="Xgp-Js-LS4"/>
+                                    <segue destination="ogT-q7-Eyb" kind="show" identifier="ShowSecondView" id="PzX-tD-iHL"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

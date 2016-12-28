@@ -129,14 +129,6 @@
     //日期加
     self.AgeCount.text  = [self ageWithDOB:theDate];
 
-    NSDate *Date0 = [_mYdatePicker date];
-    NSTimeInterval interval = 60 * 60 * 2;
-  //  NSString *titleString = [dateFormatter stringFromDate:[Date0 initWithTimeInterval:interval sinceDate:Date0]];
-  //  日期减
-//    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-//    unsigned int unitFlags = NSHourCalendarUnit;//年、月、日、时、分、秒、周等等都可以
-//    NSDateComponents *comps = [gregorian components:unitFlags fromDate:Date1 toDate:Date2 options:0];
-//    int hours = [comps hour];//时间差
     
     //星座
    

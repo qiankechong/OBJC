@@ -16,6 +16,8 @@
 		D40634F31E01151B0097A91E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634F21E01151B0097A91E /* RootViewController.m */; };
 		D40634F61E024FF60097A91E /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40634F51E024FF60097A91E /* SecondTableViewController.m */; };
 		D40BF2441E03E5FF0007B212 /* MedicalList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40BF2431E03E5FF0007B212 /* MedicalList.plist */; };
+		D4E8105D1E0A552A002D648D /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8105C1E0A552A002D648D /* NSArray+log.m */; };
+		D4E810601E0A554B002D648D /* NSDictionary+log.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8105F1E0A554B002D648D /* NSDictionary+log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		D40634F41E024FF60097A91E /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
 		D40634F51E024FF60097A91E /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 		D40BF2431E03E5FF0007B212 /* MedicalList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MedicalList.plist; sourceTree = "<group>"; };
+		D4E8105B1E0A552A002D648D /* NSArray+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
+		D4E8105C1E0A552A002D648D /* NSArray+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
+		D4E8105E1E0A554B002D648D /* NSDictionary+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+log.h"; path = "../NSDictionary+log.h"; sourceTree = "<group>"; };
+		D4E8105F1E0A554B002D648D /* NSDictionary+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+log.m"; path = "../NSDictionary+log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +78,12 @@
 				D40634F21E01151B0097A91E /* RootViewController.m */,
 				D40634DD1E0112430097A91E /* Main.storyboard */,
 				D40634F41E024FF60097A91E /* SecondTableViewController.h */,
-				D40BF2431E03E5FF0007B212 /* MedicalList.plist */,
 				D40634F51E024FF60097A91E /* SecondTableViewController.m */,
+				D40BF2431E03E5FF0007B212 /* MedicalList.plist */,
+				D4E8105E1E0A554B002D648D /* NSDictionary+log.h */,
+				D4E8105F1E0A554B002D648D /* NSDictionary+log.m */,
+				D4E8105B1E0A552A002D648D /* NSArray+log.h */,
+				D4E8105C1E0A552A002D648D /* NSArray+log.m */,
 				D40634EE1E0113010097A91E /* ThirdViewController.h */,
 				D40634EF1E0113010097A91E /* ThirdViewController.m */,
 				D40634E01E0112430097A91E /* Assets.xcassets */,
@@ -167,7 +177,9 @@
 				D40634F01E0113010097A91E /* ThirdViewController.m in Sources */,
 				D40634F31E01151B0097A91E /* RootViewController.m in Sources */,
 				D40634D91E0112430097A91E /* AppDelegate.m in Sources */,
+				D4E8105D1E0A552A002D648D /* NSArray+log.m in Sources */,
 				D40634D61E0112430097A91E /* main.m in Sources */,
+				D4E810601E0A554B002D648D /* NSDictionary+log.m in Sources */,
 				D40634F61E024FF60097A91E /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

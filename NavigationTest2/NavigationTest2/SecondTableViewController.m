@@ -17,17 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"listData %ld",[self.listData count]);
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
+   
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-     self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    _secondSectionTitleArray = [NSArray arrayWithObjects:@"1-10",@"11-20",@"21-30",@"31-40",@"41-50",@"51-60",@"61-70",@"71-80",@"81-90",@"91-100", nil];
+  //   self.navigationItem.rightBarButtonItem = self.editButtonItem;
+  //  _secondSectionTitleArray = [NSArray arrayWithObjects:@"1-10",@"11-20",@"21-30",@"31-40",@"41-50",@"51-60",@"61-70",@"71-80",@"81-90",@"91-100", nil];
   //  self.title = @"Second Tab view";
-      self.secondCities = @{@"key2":@"value12", @"key22":@"value22"};
-    self.listData = @[@"one",@"two",@"three",@"four"];
-    NSLog(@"self.listData:%@",self.listData);
+   //   self.secondCities = @{@"key2":@"value12", @"key22":@"value22"};
+   // self.listData = @[@"one",@"two",@"three",@"four"];
+  //  self.arrAllKeys = [self.listData a];
+    
+    NSLog(@"self.listData:######%@",self.listData);
 
 }
 
@@ -41,15 +45,18 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
 //    NSLog(@"second numberOfSectionsInTableView %lu",self.secondCities.count);
-    return self.secondCities.count;//Dictionary.count;
-    //return 0;
+ //   return self..count;//Dictionary.count;
+    //return 0;NSLog(@"count %ld",[self.listData count]);
+    return 1; //;[self.listData count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
   //  NSLog(@"second numberOfRowsInSection %lu",self.secondCities.count);
-    return self.secondCities.count;//Dictionary.count;
-
+  //  return self.secondCities.count;//Dictionary.count;
+    NSLog(@"count  arrAllKeys %ld",[self.listData count]);
+    return [self.listData count];
+  //  return [self.arrAllKeys count];
   //  return 0;
 }
 
@@ -57,7 +64,7 @@
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
- //   NSLog(@"titleForHeaderInSection%@:",[_secondSectionTitleArray objectAtIndex:section]);
+    NSLog(@"titleForHeaderInSection%@:",[_secondSectionTitleArray objectAtIndex:section]);
     return [_secondSectionTitleArray objectAtIndex:section];
 }
 
@@ -68,10 +75,32 @@
     
     // Configure the cell...
     NSInteger row = [indexPath row];
-    NSDictionary   *dict = self.listData[row];
-    NSLog(@"listData[name:%@ row@%ld",self.listData[row],row);
+    NSLog(@"listData[name row@%ld",row);
+  
+    NSLog(@"listData name %@",self.listData);
+    
+  //  NSDictionary   *dict = self.listData[row];
+  //  NSLog(@"listData[name:%@ row@%ld",self.listData[row],row);
 
-     cell.textLabel.text = self.listData[row];
+   // cell.textLabel.text =  [self.listData objectAtIndex:row];
+//    NSString *mystr = [self.listData objectAtIndex:0];
+//    NSLog(@"listData[name mystr@%@",mystr);
+//    
+//    NSDictionary   *dict1 = self.listData[0];
+//    NSLog(@"listData 2 dict1%@",dict1);
+//    
+    
+   //  NSLog(@"listData[name:%@ ",[self.listData objectAtIndex:0]);
+
+    
+    
+    
+  //  cell.textLabel.text = dict[@"name"];
+ //   cell.textLabel.text = self.listData[row];
+    
+
+    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+    
    // NSLog(@"dict[name:%@",dict[@"name"]);
    // NSLog(@"cell.textLabel.text:%@",cell.textLabel.text);
 

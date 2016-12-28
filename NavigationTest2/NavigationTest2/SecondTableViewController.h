@@ -10,7 +10,9 @@
 
 @interface SecondTableViewController : UITableViewController
 @property(nonatomic,strong )NSDictionary *secondCities;
-@property(nonatomic,strong ) NSArray *secondKeys;
+@property(nonatomic,strong ) NSArray *arrAllKeys;
 @property(nonatomic,weak)NSArray *secondSectionTitleArray;
 @property(nonatomic,strong) NSArray *listData;
+
+
 @end
