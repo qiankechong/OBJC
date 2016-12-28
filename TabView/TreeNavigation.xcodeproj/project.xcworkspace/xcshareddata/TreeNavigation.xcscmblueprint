@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C8DA9915CACF04D10A6BA49B5EDD2195BB4CFB3E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C8FF0DF04D5962267F02510262395D61942E8AEF" : 9223372036854775807,
+    "C8DA9915CACF04D10A6BA49B5EDD2195BB4CFB3E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12A56A45-B382-4AB6-97F5-F7EEA9D2554F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C8FF0DF04D5962267F02510262395D61942E8AEF" : "",
+    "C8DA9915CACF04D10A6BA49B5EDD2195BB4CFB3E" : "OBJC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TreeNavigation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TabView\/TreeNavigation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiankechong\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8DA9915CACF04D10A6BA49B5EDD2195BB4CFB3E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiankechong\/iOStab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C8FF0DF04D5962267F02510262395D61942E8AEF"
+    }
+  ]
+}
