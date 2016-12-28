@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>svntest.xcscheme</key>
+		<key>gittest1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D47D749B1E137A5B00749C78</key>
+		<key>D4F6FC041E13863400B9024D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

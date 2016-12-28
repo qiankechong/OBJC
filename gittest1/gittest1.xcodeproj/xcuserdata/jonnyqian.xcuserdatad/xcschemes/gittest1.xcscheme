@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D47D749B1E137A5B00749C78"
-               BuildableName = "svntest.app"
-               BlueprintName = "svntest"
-               ReferencedContainer = "container:svntest.xcodeproj">
+               BlueprintIdentifier = "D4F6FC041E13863400B9024D"
+               BuildableName = "gittest1.app"
+               BlueprintName = "gittest1"
+               ReferencedContainer = "container:gittest1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D47D749B1E137A5B00749C78"
-            BuildableName = "svntest.app"
-            BlueprintName = "svntest"
-            ReferencedContainer = "container:svntest.xcodeproj">
+            BlueprintIdentifier = "D4F6FC041E13863400B9024D"
+            BuildableName = "gittest1.app"
+            BlueprintName = "gittest1"
+            ReferencedContainer = "container:gittest1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D47D749B1E137A5B00749C78"
-            BuildableName = "svntest.app"
-            BlueprintName = "svntest"
-            ReferencedContainer = "container:svntest.xcodeproj">
+            BlueprintIdentifier = "D4F6FC041E13863400B9024D"
+            BuildableName = "gittest1.app"
+            BlueprintName = "gittest1"
+            ReferencedContainer = "container:gittest1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D47D749B1E137A5B00749C78"
-            BuildableName = "svntest.app"
-            BlueprintName = "svntest"
-            ReferencedContainer = "container:svntest.xcodeproj">
+            BlueprintIdentifier = "D4F6FC041E13863400B9024D"
+            BuildableName = "gittest1.app"
+            BlueprintName = "gittest1"
+            ReferencedContainer = "container:gittest1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
