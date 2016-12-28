@@ -88,6 +88,9 @@
      self.arrAllKeys = [self.allcatagollys allKeys];
      NSLog(@"arrAllKeys count %ld",self.arrAllKeys.count);
      NSLog(@"arrAllKeys %@",self.arrAllKeys);
+     NSLog(@"arrAllKeys count %ld",self.arrAllKeys.count);
+     NSLog(@"arrAllKeys %@",self.arrAllKeys);
+     
      //获取第二层数据结构
 //     self.dictSecondlevel = [self.allcatagollys objectForKey:@"系统"];
 //     NSLog(@"dictSecondlevel:%@", self.dictSecondlevel);//直接打印数据
