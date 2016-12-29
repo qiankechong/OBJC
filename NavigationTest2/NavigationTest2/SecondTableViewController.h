@@ -12,7 +12,7 @@
 @property(nonatomic,strong )NSDictionary *dictSecondCata;
 @property(nonatomic,strong ) NSArray *arrAllKeys;
 @property(nonatomic,weak)NSArray *secondSectionTitleArray;
-@property(nonatomic,strong) NSArray *listData;
+@property(nonatomic,strong) NSArray *arrTitleName;
 
 
 @end
