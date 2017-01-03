@@ -179,6 +179,18 @@
     return [self.arrAllKeys objectAtIndex:section];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSArray *array = [tableView visibleCells];
+    for (UITableViewCell *cell in array) {
+        [cell setAccessoryType:UITableViewCellAccessoryNone];
+        cell.textLabel.textColor=[UIColor blackColor];
+        
+    }
+    UITableViewCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    cell.textLabel.textColor=[UIColor blueColor];
+    [cell setAccessoryType:UITableViewCellAccessoryCheckmark];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     // Configure the cell...
@@ -296,6 +308,43 @@
     }
 
 }
+
+/*
+ - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ static NSString *CellTableIdentifier = @"CellTableIdentifier";
+ UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
+ if (cell == nil)
+ {
+ cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellTableIdentifier];
+ cell.selectionStyle = UITableViewCellSelectionStyleNone; //选中cell时无色
+ }
+ 
+ cell.textLabel.text = vo  iceArr[indexPath.row];
+ if ([[[NSUserDefaults standardUserDefaults]valueForKey:APP_CHANGEVOICE] isEqualToString:[resuleArr objectAtIndex:indexPath.row]])
+ {
+ cell.accessoryType = UITableViewCellAccessoryCheckmark;
+ }
+ else
+ {
+ cell.accessoryType = UITableViewCellAccessoryNone;
+ }
+ 
+ return cell;
+ }
+ 
+ 
+ - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ [[NSUserDefaults standardUserDefaults]setValue:[resuleArr objectAtIndex:indexPath.row] forKey:APP_CHANGEVOICE];
+ 
+ AudioServicesPlaySystemSound([[resuleArr objectAtIndex:indexPath.row]integerValue]);
+ 
+ [myTableView reloadData];
+ }
+ 
+*/
+
 
 
 @end
