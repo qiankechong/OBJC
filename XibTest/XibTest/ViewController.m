@@ -47,7 +47,7 @@
     r = view2.frame;
     r.origin.y = view.frame.size.height + view.frame.origin.y;
     view2.frame = r ;
-    
+    NSLog(@"test");
     [self.view addSubview:view2];
 
 }
