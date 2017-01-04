@@ -219,9 +219,10 @@
     self.secondAllKeys = [self.dictSecondlevel allKeys];
     //    NSLog(@"nbr dictSecondlevel count %ld",secondallKeys.count);
     NSLog(@"tlt dictSecondlevel %@",self.secondAllKeys );
-    NSLog(@"tlt dictSecondlevel[row] %@",self.secondAllKeys[row] );
+  //  NSLog(@"tlt dictSecondlevel[row] %@",[self.secondAllKeys valueForKey:@"name"]);
 
     cell.textLabel.text =self.secondAllKeys[row];//[NSString stringWithFormat:@"%ld",row];
+  //  cell.detailTextLabel.text = self.secondAllKeys[row];
   
    // cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;

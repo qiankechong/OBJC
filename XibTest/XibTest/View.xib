@@ -12,11 +12,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View">
-            <rect key="frame" x="0.0" y="0.0" width="334" height="151"/>
+            <rect key="frame" x="0.0" y="0.0" width="334" height="106"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCK-0L-IXY">
-                    <rect key="frame" x="146" y="65" width="42" height="21"/>
+                    <rect key="frame" x="131" y="43" width="42" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -29,7 +29,7 @@
             <connections>
                 <outlet property="BaiduLabel" destination="UCK-0L-IXY" id="x7z-Ug-eGc"/>
             </connections>
-            <point key="canvasLocation" x="-127" y="-174"/>
+            <point key="canvasLocation" x="-127" y="-197"/>
         </view>
     </objects>
 </document>

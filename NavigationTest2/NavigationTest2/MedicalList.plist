@@ -2,10 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>专家系统</key>
+	<dict>
+		<key>key</key>
+		<string></string>
+		<key>name</key>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>key</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key>专科</key>
 	<dict>
 		<key>麻醉学</key>
 		<dict>
+			<key>name</key>
+			<string></string>
 			<key>烧伤面积（九分法）</key>
 			<dict/>
 			<key>静脉补液滴速</key>
@@ -182,8 +196,8 @@
 		</dict>
 		<key>免疫系统</key>
 		<dict>
-			<key>New item - 4</key>
-			<string></string>
+			<key>name</key>
+			<string>Immunology</string>
 			<key>New item - 3</key>
 			<string></string>
 			<key>New item - 2</key>
@@ -241,12 +255,25 @@
 	<dict>
 		<key>医学通用公式</key>
 		<dict>
+			<key>name</key>
+			<string>medical General</string>
 			<key>验后概率（sn/sp）</key>
-			<dict/>
+			<dict>
+				<key>name</key>
+				<string>Post-test Probablility(Sn/Sp)</string>
+			</dict>
 			<key>似然比（LR）</key>
-			<dict/>
+			<dict>
+				<key>name</key>
+				<string>Likelihood Rations</string>
+			</dict>
 			<key>比值比-概率</key>
-			<dict/>
+			<dict>
+				<key>name</key>
+				<string>likelihood Rations</string>
+				<key>New item - 2</key>
+				<string></string>
+			</dict>
 			<key>小儿气管插管的管道规则</key>
 			<dict/>
 			<key>链球菌咽炎的修正Centor评分</key>
