@@ -13,6 +13,7 @@
 		D401B82B1E1C9447005F1376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D401B8291E1C9447005F1376 /* Main.storyboard */; };
 		D401B82D1E1C9447005F1376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D401B82C1E1C9447005F1376 /* Assets.xcassets */; };
 		D401B8301E1C9447005F1376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D401B82E1E1C9447005F1376 /* LaunchScreen.storyboard */; };
+		D4781F341E1C9A5600C49AAA /* travelCheck.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4781F331E1C9A5600C49AAA /* travelCheck.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D401B82C1E1C9447005F1376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D401B82F1E1C9447005F1376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D401B8311E1C9447005F1376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4781F331E1C9A5600C49AAA /* travelCheck.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = travelCheck.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D401B8241E1C9447005F1376 /* AppDelegate.m */,
 				D401B8261E1C9447005F1376 /* ViewController.h */,
 				D401B8271E1C9447005F1376 /* ViewController.m */,
+				D4781F331E1C9A5600C49AAA /* travelCheck.plist */,
 				D401B8291E1C9447005F1376 /* Main.storyboard */,
 				D401B82C1E1C9447005F1376 /* Assets.xcassets */,
 				D401B82E1E1C9447005F1376 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				D401B8301E1C9447005F1376 /* LaunchScreen.storyboard in Resources */,
 				D401B82D1E1C9447005F1376 /* Assets.xcassets in Resources */,
 				D401B82B1E1C9447005F1376 /* Main.storyboard in Resources */,
+				D4781F341E1C9A5600C49AAA /* travelCheck.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				D401B8361E1C9447005F1376 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
