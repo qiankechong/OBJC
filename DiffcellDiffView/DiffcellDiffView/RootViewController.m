@@ -73,8 +73,9 @@
     }else{
         ViewController2 *twoview =[[self storyboard]instantiateViewControllerWithIdentifier:@"view2"];
         [[self navigationController]pushViewController:twoview animated:YES];
-    }
-
+    };
+    ;
+    ;
 }
 
 /*
