@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  PlistTest
+//  PlistTest2
 //
 //  Created by Jonnyqian on 2017/1/4.
 //  Copyright © 2017年 Jonnyqian. All rights reserved.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
-@property(strong,nonatomic)NSArray *arrList;
+@interface ViewController : UIViewController
+
 
 @end
 
