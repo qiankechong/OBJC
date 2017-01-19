@@ -11,6 +11,7 @@
 #import "View2.h"
 #import "View.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *ButtonView3;
 
 @end
 
@@ -58,10 +59,26 @@
     r =view4.frame;
     r.origin.y = view2.frame.size.height + view2.frame.origin.y;
     [self.view addSubview:view4];
+    
+    self.ButtonView3.titleLabel.text = @"view32";
+    [self.ButtonView3 setTitle:@"view3" forState:(UIControlStateNormal)];
+    [self.ButtonView3 setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+    [self.ButtonView3 setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    self.ButtonView3.backgroundColor = [UIColor grayColor];
+    //添加点击事件
+    [self.ButtonView3 addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
 
 }
 
+-(void)click
+{
+    [self.ButtonView3 setTitle:@"点击" forState:(UIControlStateNormal)];
+    self.view.backgroundColor  = [UIColor redColor];
+    NSLog(@"buttion click");
+    
+    
 
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

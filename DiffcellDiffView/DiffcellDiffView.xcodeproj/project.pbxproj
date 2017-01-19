@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D413CA771E1F6368002085E1 /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D413CA761E1F6368002085E1 /* View3.xib */; };
+		D413CA7A1E1F6388002085E1 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D413CA791E1F6388002085E1 /* ViewController3.m */; };
 		D4595E191E1E3CE800B5F0B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4595E181E1E3CE800B5F0B9 /* main.m */; };
 		D4595E1C1E1E3CE800B5F0B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4595E1B1E1E3CE800B5F0B9 /* AppDelegate.m */; };
 		D4595E1F1E1E3CE800B5F0B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4595E1E1E1E3CE800B5F0B9 /* ViewController.m */; };
@@ -19,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D413CA761E1F6368002085E1 /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		D413CA781E1F6388002085E1 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		D413CA791E1F6388002085E1 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		D4595E141E1E3CE800B5F0B9 /* DiffcellDiffView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffcellDiffView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4595E181E1E3CE800B5F0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4595E1A1E1E3CE800B5F0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +53,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D413CA741E1F6301002085E1 /* view12 */ = {
+			isa = PBXGroup;
+			children = (
+				D4595E5D1E1E449A00B5F0B9 /* ViewController1.h */,
+				D4595E5E1E1E449A00B5F0B9 /* ViewController1.m */,
+				D4595E601E1E44A500B5F0B9 /* ViewController2.h */,
+				D4595E611E1E44A500B5F0B9 /* ViewController2.m */,
+			);
+			name = view12;
+			sourceTree = "<group>";
+		};
+		D413CA751E1F632A002085E1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D4595E1D1E1E3CE800B5F0B9 /* ViewController.h */,
+				D4595E1E1E1E3CE800B5F0B9 /* ViewController.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		D413CA7C1E1F63A9002085E1 /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+				D413CA761E1F6368002085E1 /* View3.xib */,
+				D413CA781E1F6388002085E1 /* ViewController3.h */,
+				D413CA791E1F6388002085E1 /* ViewController3.m */,
+			);
+			name = "New Group3";
+			sourceTree = "<group>";
+		};
+		D413CA7D1E1F6453002085E1 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D4595E1A1E1E3CE800B5F0B9 /* AppDelegate.h */,
+				D4595E1B1E1E3CE800B5F0B9 /* AppDelegate.m */,
+				D4595E201E1E3CE800B5F0B9 /* Main.storyboard */,
+				D4595E541E1E3DC300B5F0B9 /* RootViewController.h */,
+				D4595E551E1E3DC300B5F0B9 /* RootViewController.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
 		D4595E0B1E1E3CE800B5F0B9 = {
 			isa = PBXGroup;
 			children = (
@@ -67,17 +114,10 @@
 		D4595E161E1E3CE800B5F0B9 /* DiffcellDiffView */ = {
 			isa = PBXGroup;
 			children = (
-				D4595E1A1E1E3CE800B5F0B9 /* AppDelegate.h */,
-				D4595E1B1E1E3CE800B5F0B9 /* AppDelegate.m */,
-				D4595E1D1E1E3CE800B5F0B9 /* ViewController.h */,
-				D4595E1E1E1E3CE800B5F0B9 /* ViewController.m */,
-				D4595E5D1E1E449A00B5F0B9 /* ViewController1.h */,
-				D4595E5E1E1E449A00B5F0B9 /* ViewController1.m */,
-				D4595E601E1E44A500B5F0B9 /* ViewController2.h */,
-				D4595E611E1E44A500B5F0B9 /* ViewController2.m */,
-				D4595E201E1E3CE800B5F0B9 /* Main.storyboard */,
-				D4595E541E1E3DC300B5F0B9 /* RootViewController.h */,
-				D4595E551E1E3DC300B5F0B9 /* RootViewController.m */,
+				D413CA7D1E1F6453002085E1 /* main */,
+				D413CA751E1F632A002085E1 /* New Group */,
+				D413CA741E1F6301002085E1 /* view12 */,
+				D413CA7C1E1F63A9002085E1 /* New Group3 */,
 				D4595E231E1E3CE800B5F0B9 /* Assets.xcassets */,
 				D4595E251E1E3CE800B5F0B9 /* LaunchScreen.storyboard */,
 				D4595E281E1E3CE800B5F0B9 /* Info.plist */,
@@ -152,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D413CA771E1F6368002085E1 /* View3.xib in Resources */,
 				D4595E271E1E3CE800B5F0B9 /* LaunchScreen.storyboard in Resources */,
 				D4595E241E1E3CE800B5F0B9 /* Assets.xcassets in Resources */,
 				D4595E221E1E3CE800B5F0B9 /* Main.storyboard in Resources */,
@@ -171,6 +212,7 @@
 				D4595E561E1E3DC300B5F0B9 /* RootViewController.m in Sources */,
 				D4595E191E1E3CE800B5F0B9 /* main.m in Sources */,
 				D4595E621E1E44A500B5F0B9 /* ViewController2.m in Sources */,
+				D413CA7A1E1F6388002085E1 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +367,7 @@
 				D4595E2D1E1E3CE800B5F0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

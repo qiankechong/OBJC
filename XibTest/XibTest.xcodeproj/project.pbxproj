@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D413CA7F1E1F6E21002085E1 /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = D413CA7E1E1F6E21002085E1 /* View3.xib */; };
+		D413CA821E1F6E30002085E1 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D413CA811E1F6E30002085E1 /* ViewController3.m */; };
 		D47BA04E1E1B3FC700EDCDE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D47BA04D1E1B3FC700EDCDE0 /* main.m */; };
 		D47BA0511E1B3FC700EDCDE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D47BA0501E1B3FC700EDCDE0 /* AppDelegate.m */; };
 		D47BA0541E1B3FC700EDCDE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D47BA0531E1B3FC700EDCDE0 /* ViewController.m */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D413CA7E1E1F6E21002085E1 /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		D413CA801E1F6E30002085E1 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		D413CA811E1F6E30002085E1 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		D47BA0491E1B3FC700EDCDE0 /* XibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47BA04D1E1B3FC700EDCDE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D47BA04F1E1B3FC700EDCDE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +59,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D413CA831E1F6E38002085E1 /* view3 */ = {
+			isa = PBXGroup;
+			children = (
+				D413CA7E1E1F6E21002085E1 /* View3.xib */,
+				D413CA801E1F6E30002085E1 /* ViewController3.h */,
+				D413CA811E1F6E30002085E1 /* ViewController3.m */,
+			);
+			name = view3;
+			sourceTree = "<group>";
+		};
 		D47BA0401E1B3FC700EDCDE0 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +102,7 @@
 				D47BA06A1E1B416F00EDCDE0 /* View2.h */,
 				D47BA06B1E1B416F00EDCDE0 /* View2.m */,
 				D47BA0651E1B402E00EDCDE0 /* View2.xib */,
+				D413CA831E1F6E38002085E1 /* view3 */,
 				D47BA0581E1B3FC700EDCDE0 /* Assets.xcassets */,
 				D47BA05A1E1B3FC700EDCDE0 /* LaunchScreen.storyboard */,
 				D47BA05D1E1B3FC700EDCDE0 /* Info.plist */,
@@ -166,6 +182,7 @@
 				D47BA0641E1B3FDA00EDCDE0 /* View1.xib in Resources */,
 				D47BA0661E1B402E00EDCDE0 /* View2.xib in Resources */,
 				D47BA0711E1B497900EDCDE0 /* View.xib in Resources */,
+				D413CA7F1E1F6E21002085E1 /* View3.xib in Resources */,
 				D47BA0571E1B3FC700EDCDE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +200,7 @@
 				D47BA06C1E1B416F00EDCDE0 /* View2.m in Sources */,
 				D47BA0691E1B416200EDCDE0 /* View1.m in Sources */,
 				D47BA04E1E1B3FC700EDCDE0 /* main.m in Sources */,
+				D413CA821E1F6E30002085E1 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +355,7 @@
 				D47BA0621E1B3FC700EDCDE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
