@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self loadPlist];
     return YES;
 }
 
@@ -47,5 +48,45 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+-(void)loadPlist
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    
+//     NSLog(@"paths：%@",paths);
+//     NSLog(@"documentsDirectory：%@",documentsDirectory);
+    
+    
+    NSString *storePath = [NSString stringWithFormat:@"%@/more.plist",documentsDirectory];
+//    NSLog(@"storePath：%@",storePath);
+    
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    NSString *defaultStorePath = [[NSBundle mainBundle] pathForResource:@"more"
+                                                                 ofType:@"plist"];
+//    NSLog(@"defaultStorePath：%@",defaultStorePath);
+
+    
+//    NSString *myFilePath = [[NSBundle mainBundle] pathForResource:@"more"
+//                                                           ofType:@"plist"];
+//    NSString *myFileContent=[NSString stringWithContentsOfFile:myFilePath encoding:NSUTF8StringEncoding error:nil];
+//    NSLog(@"bundel file path: %@ \nfile content:%@",myFilePath,myFileContent);
+//    
+    
+    
+    if (![fileManager fileExistsAtPath:storePath])
+    {
+        //如果目录不存在 需要重新创建
+        if (![fileManager fileExistsAtPath:[storePath stringByDeletingLastPathComponent]]) {
+            [fileManager createDirectoryAtPath:[storePath stringByDeletingLastPathComponent] withIntermediateDirectories:NO attributes:nil error:nil];
+        }
+        
+        if ([fileManager copyItemAtPath:defaultStorePath toPath:storePath error:nil])
+        {
+            NSLog(@"OK");
+        }
+    }
+
+}
 
 @end
