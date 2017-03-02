@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="reuseIdentifier" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="r3X-uz-BUE">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="elC-ss-kyM">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="r3X-uz-BUE" id="7Er-4b-whG">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="elC-ss-kyM" id="SP4-96-yGc">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -72,20 +72,28 @@
             </objects>
             <point key="canvasLocation" x="1493" y="-20"/>
         </scene>
-        <!--ALLTVC-->
+        <!--All ItemTVC-->
         <scene sceneID="dOU-9B-dJ0">
             <objects>
-                <tableViewController id="5yK-ov-HFC" customClass="ALLTVC" sceneMemberID="viewController">
+                <tableViewController id="5yK-ov-HFC" customClass="AllItemTVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="v5a-T9-DK9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="gpk-3C-jXX">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="5yK-ov-HFC" id="h2o-Fe-90c"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QJU-SZ-oUz">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QJU-SZ-oUz" id="ouu-rp-wW9">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -97,16 +105,17 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="emk-8a-5iW"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="mlY-Is-ry1" id="7mP-sG-uub"/>
+                        <outlet property="searchDisplayController" destination="AnA-9z-tEf" id="7wG-sY-Sfl"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtl-L4-Wba" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="mlY-Is-ry1">
+                <searchDisplayController id="AnA-9z-tEf">
                     <connections>
-                        <outlet property="delegate" destination="5yK-ov-HFC" id="dQ9-dM-rzE"/>
-                        <outlet property="searchContentsController" destination="5yK-ov-HFC" id="dgn-mS-PPw"/>
-                        <outlet property="searchResultsDataSource" destination="5yK-ov-HFC" id="zS1-8Q-MM0"/>
-                        <outlet property="searchResultsDelegate" destination="5yK-ov-HFC" id="DTP-vV-XOJ"/>
+                        <outlet property="delegate" destination="5yK-ov-HFC" id="e6Y-yx-DgA"/>
+                        <outlet property="searchBar" destination="gpk-3C-jXX" id="0QV-Re-cYL"/>
+                        <outlet property="searchContentsController" destination="5yK-ov-HFC" id="Edf-gq-Nny"/>
+                        <outlet property="searchResultsDataSource" destination="5yK-ov-HFC" id="duL-uN-sqc"/>
+                        <outlet property="searchResultsDelegate" destination="5yK-ov-HFC" id="yre-Oc-SBG"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -125,7 +134,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="REu-Lb-UKL" id="Rch-uK-fIB">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>

@@ -19,15 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    self.Mytabview.backgroundColor = [UIColor redColor];
-// //   self.TabviewTest
+ //   self.TabviewTest
 //    self.view.backgroundColor = [UIColor yellowColor];
-// //   self.TabViewcellTest.text = @"Frank's Taqble Cell";
+ //   self.TabViewcellTest.text = @"Frank's Taqble Cell";
 //
     NSArray *arr = @[@"美国",@"美国1",@"美国2",@"美国3",@"美国4",@"美国5",@"美国6",@"美国7",@"美国8"];
-    self.arrList =arr;
+    self.arrList = arr;
     NSLog(@"arr%@",arr);
-
-    
 }
   // Called after the view has been loaded. For view controllers created in code, this is after -loadView. For view controllers unarchived from a nib, this is after the view is set.
 
@@ -40,7 +38,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSLog(@"numberOfRowsInSection");
-    return 1;
+    return 5;
 }
 
 

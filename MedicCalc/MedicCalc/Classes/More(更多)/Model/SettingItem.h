@@ -11,8 +11,17 @@
 @interface SettingItem : NSObject
 @property (nonatomic ,copy)NSString *icon;
 @property (nonatomic ,copy)NSString *title;
+@property (nonatomic ,copy)NSString *subTitle;
 
 +(instancetype)itemWithTitle:(NSString *)title;
+
++(instancetype)itemWithTitle:(NSString *)title
+                        icon:(NSString * )icon;
+
++(instancetype)itemWithTitle:(NSString *)title
+                    subTitle:(NSString *)subTitle
+                        icon:(NSString *)icon;
+
 
 
 @end

@@ -16,4 +16,22 @@
     item.title = title;
     return item;
 }
+
++(instancetype)itemWithTitle:(NSString *)title icon:(NSString * )icon
+{
+    SettingItem *item = [[self alloc]init];
+    item.title = title;
+    item.icon  = icon ;
+    return item;
+}
+
++(instancetype)itemWithTitle:(NSString *)title subTitle:(NSString *)subTitle icon:(NSString *)icon
+{
+    SettingItem *item = [[self alloc]init];
+    item.title = title;
+    item.subTitle = subTitle;
+    item.icon  = icon ;
+    return item;
+}
+
 @end
