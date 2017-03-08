@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SettingGroup : NSObject
+
 @property (nonatomic ,strong )NSArray *items;
+
 +(instancetype)groupWithItems:(NSArray *)items;
 
 @end

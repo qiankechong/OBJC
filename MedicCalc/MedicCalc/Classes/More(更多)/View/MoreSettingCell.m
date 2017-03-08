@@ -24,10 +24,6 @@
         cell = [[self alloc]initWithStyle:UITableViewCellStyleSubtitle
                           reuseIdentifier:reuseId];
     
-    
-//    cell.contentView.backgroundColor = [UIColor redColor];
-//    cell.textLabel.textColor = [UIColor redColor];
-//    cell.textLabel.backgroundColor =[UIColor greenColor];
 //    //设置字体大小
     cell.textLabel.font =[UIFont systemFontOfSize:15];
     }

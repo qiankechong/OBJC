@@ -63,7 +63,6 @@
     
     return self.groups.count;
     
-    //    return [_nsarryMore count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -73,33 +72,12 @@
     
     return  [self.groups[section] items].count;
     
-    //    return  [[_nsarryMore objectAtIndex:section] count];
     
 }
 
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
-    //#if NO
-    //    static NSString * reuseId = @"reuseIdentifier";
-    //
-    //    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
-    //    if (!cell) {
-    //        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault
-    //                                     reuseIdentifier:reuseId];
-    //
-    //    }
-    //
-    ////    cell.contentView.backgroundColor = [UIColor redColor];
-    //    cell.textLabel.textColor = [UIColor blueColor];
-    //    cell.textLabel.backgroundColor =[UIColor greenColor];
-    //    //设置字体大小
-    //    cell.textLabel.font =[UIFont systemFontOfSize:15];
-    //
-    //    NSLog(@"11");
-    //
     
     
     MoreSettingCell *cell = [MoreSettingCell cellWithTableview:tableView];
@@ -144,11 +122,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //    detailViewController *dvc = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
-    
-    //        dvc.friendsList = _nsarryMore[indexPath.row][@"FriendsList"];
-    //    dvc.areaString = [[_nsarryMore objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-    //让选中的不被再选中
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     SettingGroup *group = self.groups[indexPath.section];
@@ -177,9 +150,7 @@
         }
         
         
-        
-        //        [[self navigationController] pushViewController:dvc animated:YES];
-    }
+     }
     
     
 }

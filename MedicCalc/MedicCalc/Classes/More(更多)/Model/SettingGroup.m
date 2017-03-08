@@ -9,6 +9,7 @@
 #import "SettingGroup.h"
 
 @implementation SettingGroup
+
 +(instancetype)groupWithItems:(NSArray *)items
 {
     SettingGroup * group = [[self alloc]init];

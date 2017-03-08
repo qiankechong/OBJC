@@ -21,6 +21,15 @@
     
 }
 
+//+(NSMutableArray * )nameWithArray:(NSString *)plistName
+//{
+//    return nil;
+//}
+//
+//+ (instancetype)nameWithArray:(NSArray *)arry;
+//{
+//    return nil;
+//}
 +(instancetype)groups:(NSArray * )items
 {
     LoadMoreList *loadList  = [[self alloc]init];
@@ -31,7 +40,7 @@
     
 }
 
-- (NSMutableArray *)nameWithArray:(NSString *)plistName
+- (NSArray *)nameWithArray:(NSString *)plistName
 {
 //    NSString *str  = [NSBundle mainBundle]pathForResource:@"" ofType:a
 //    //创建并返回一个字典,将这个字典传给当前类:HLProvince 即self 进行返回
@@ -39,7 +48,7 @@
     NSString *str = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:[NSString stringWithFormat:@"/%@",plistName]];
     NSLog(@"str:%@",str);
     
-    NSMutableArray *plistArray = [NSArray arrayWithContentsOfFile:str];
+    NSArray *plistArray = [NSArray arrayWithContentsOfFile:str];
     return plistArray;
 
 }
@@ -75,12 +84,20 @@
 //    return outArray;
     
 
--(NSMutableArray *)cellList
+-(NSArray *)cellList
 {
-    NSMutableArray *sectionArray ;
+     NSArray *sectionArray ;
     sectionArray = [self nameWithArray:@"more.plist"];
     
     return sectionArray;
 }
+
+/**
+ loadGroupPlistFile
+
+ @param plistName plistName description
+ @return return value description
+ */
+
 
 @end

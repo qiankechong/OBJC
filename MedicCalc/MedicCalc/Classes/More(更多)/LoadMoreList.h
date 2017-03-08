@@ -16,13 +16,21 @@
 @property (nonatomic, strong) NSMutableArray *itemArray;    //  每组的item数组<CSPlistItemModel>
 
 @property (nonatomic ,strong)NSArray *arryMorelist;
+//定义护理大类
+@property(nonatomic,strong)NSArray *groups;
+
+//定义护理大类分项目
 @property (nonatomic,strong)NSArray *items;
 
 
-/**
- *省份名字,这里的省份的名字一定要和数据中的名字一致,因下面写入键值的时候是和数据中的一致的,这个地方如果不一直就会导致找不到减值的情况,在加载数据的时候就会导致程序崩溃
- */
-@property(nonatomic,copy)NSString *name;
+//定义标题
+@property (nonatomic ,copy)NSString *title;
+//定义英文标题
+@property (nonatomic ,copy)NSString *subtitle;
+//定义图标
+@property (nonatomic ,copy)NSString *icon;
+
+
 
 /**
  *城市数组的NSString泛型
@@ -33,8 +41,11 @@
 //+ (NSMutableArray)nameWithArray:(NSString *)plistName;
 //
 //+ (instancetype)nameWithArray:(NSArray *)arry;
-//
+
 - (instancetype)initWithArray:(NSArray *)arry;
 
 +(instancetype)groups:(NSArray * )items;
+
+
+
 @end

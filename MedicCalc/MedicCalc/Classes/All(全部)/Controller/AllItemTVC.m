@@ -60,7 +60,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     [self.view setBackgroundColor:[UIColor orangeColor]];
     self.title = @"全部项目";
@@ -71,18 +70,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//      static NSString * reuseId = @"item";
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseId];
-//    if (!cell) {
-//        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle
-//                          reuseIdentifier:reuseId];
-//        
-//    }
-//    return  cell;
-////    return nil;
-//    
-//}
 
 @end

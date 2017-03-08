@@ -1,0 +1,39 @@
+//
+//  AgeVC.m
+//  MedicCalc
+//
+//  Created by Jonnyqian on 2017/3/7.
+//  Copyright © 2017年 Jonnyqian. All rights reserved.
+//
+
+#import "AgeVC.h"
+
+@interface AgeVC ()
+
+@end
+
+@implementation AgeVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.title = @"年龄AGE";
+    [self.view setBackgroundColor:[UIColor darkGrayColor]];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

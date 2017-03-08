@@ -28,7 +28,7 @@ typedef  enum
 
 //@property (strong, nonatomic)NSString *listFileName;
 
--(void)toBackGroundSave;
+//-(void)toBackGroundSave;
 
 -(NSInteger) numberOfSection;
 
@@ -41,7 +41,7 @@ typedef  enum
 -(NSInteger)numberofCountInIgnoredTableViewAtSection:(NSInteger)sectionNum;
 -(NSString *)cellTextInIgnoredTableViewAtIndex:(NSUInteger)index InSectionNumber:(NSUInteger)sectionNum;
 
--(NSString *)sectionHeaderText:(NSUInteger)sectionNum inTableViewIndex:(tableViewType)tableViewIndex;
+//-(NSString *)sectionHeaderText:(NSUInteger)sectionNum inTableViewIndex:(tableViewType)tableViewIndex;
 
 
 
@@ -53,10 +53,10 @@ typedef  enum
 - (void)ignoreRowsAtIndexPaths:(NSIndexPath *)indexPath;
 
 - (void)headerIsTapEventInCheckedTableView:(NSInteger)sectionIndex;
-- (void)deleteRowsAtIndexPathsInCheckedTableView:(NSIndexPath *)indexPath;
+//- (void)deleteRowsAtIndexPathsInCheckedTableView:(NSIndexPath *)indexPath;
 
 - (void)headerIsTapEventInIgnoredTableView:(NSInteger)sectionIndex;
--(void)deleteRowsAtIndexPathsInIgnoredTableView:(NSIndexPath *)indexPath;
+//-(void)deleteRowsAtIndexPathsInIgnoredTableView:(NSIndexPath *)indexPath;
 
 -(void)removeIgnorItemsToUnCheckedItems;
 -(void)removeCheckedItemsToUnChekedItems;
