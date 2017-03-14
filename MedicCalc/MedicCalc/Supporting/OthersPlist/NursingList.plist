@@ -3,6 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>sonPlistName</key>
+		<string>DailyNursingCare.plist</string>
 		<key>Icon</key>
 		<string></string>
 		<key>title</key>
@@ -287,6 +289,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>sonPlistName</key>
+		<string>DailyNursingCare.plist</string>
 		<key>Icon</key>
 		<string></string>
 		<key>title</key>
@@ -379,6 +383,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>sonPlistName</key>
+		<string>DailyNursingCare.plist</string>
 		<key>Icon</key>
 		<string></string>
 		<key>title</key>
@@ -833,6 +839,8 @@
 		</array>
 	</dict>
 	<dict>
+		<key>sonPlistName</key>
+		<string>DailyNursingCare.plist</string>
 		<key>Icon</key>
 		<string></string>
 		<key>title</key>

@@ -19,13 +19,21 @@
 		D4052C721E6D8FDA002445CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4052C711E6D8FDA002445CC /* main.m */; };
 		D4052C811E6D9183002445CC /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4052C801E6D9183002445CC /* detailViewController.m */; };
 		D4052C831E6D91CE002445CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4052C821E6D91CE002445CC /* Default-568h@2x.png */; };
-		D40F75661E6E88DD00955B87 /* GastroenterologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75651E6E88DD00955B87 /* GastroenterologyTVC.m */; };
-		D40F75691E6E8AF900955B87 /* HematologyOncologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75681E6E8AF900955B87 /* HematologyOncologyTVC.m */; };
 		D40F75941E6EBAA700955B87 /* AgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75931E6EBAA700955B87 /* AgeVC.m */; };
 		D40F759A1E6EFEFF00955B87 /* DailyNursingCare.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40F75991E6EFEFF00955B87 /* DailyNursingCare.plist */; };
 		D40F759C1E6EFF2100955B87 /* MedicalGenaral.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40F759B1E6EFF2100955B87 /* MedicalGenaral.plist */; };
-		D40F75A01E6EFF6D00955B87 /* DailyNursingCareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F759F1E6EFF6D00955B87 /* DailyNursingCareTVC.m */; };
-		D42767AD1E6DB79E005A9D45 /* CateGoryBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D42767AC1E6DB79E005A9D45 /* CateGoryBaseTVC.m */; };
+		D40F75AB1E6FE5F600955B87 /* CateGoryBaseTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75A71E6FE5F600955B87 /* CateGoryBaseTVC.m */; };
+		D40F75AC1E6FE5F600955B87 /* CategoryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75AA1E6FE5F600955B87 /* CategoryTVC.m */; };
+		D40F75B31E6FE6A600955B87 /* GastroenterologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75B21E6FE6A600955B87 /* GastroenterologyTVC.m */; };
+		D40F75B61E6FE6DE00955B87 /* EndocrinologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75B51E6FE6DE00955B87 /* EndocrinologyTVC.m */; };
+		D40F75B91E6FE71700955B87 /* MedicalGeneralTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75B81E6FE71700955B87 /* MedicalGeneralTVC.m */; };
+		D40F75BF1E6FE74700955B87 /* MegePlistLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75BC1E6FE74700955B87 /* MegePlistLoad.m */; };
+		D40F75C01E6FE74700955B87 /* MgPlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75BE1E6FE74700955B87 /* MgPlistModel.m */; };
+		D40F75C31E6FE78600955B87 /* CardiologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75C21E6FE78600955B87 /* CardiologyTVC.m */; };
+		D40F75C61E6FE7A100955B87 /* CriticalCareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75C51E6FE7A100955B87 /* CriticalCareTVC.m */; };
+		D40F75C91E6FE7BB00955B87 /* HematologyOncologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75C81E6FE7BB00955B87 /* HematologyOncologyTVC.m */; };
+		D40F75CC1E6FE7CF00955B87 /* DailyNursingCareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75CB1E6FE7CF00955B87 /* DailyNursingCareTVC.m */; };
+		D40F75CF1E6FEAA600955B87 /* AADatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F75CE1E6FEAA600955B87 /* AADatePicker.m */; };
 		D42768271E6DC1BF005A9D45 /* Anesthesiology.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42767F91E6DC1BF005A9D45 /* Anesthesiology.plist */; };
 		D42768281E6DC1BF005A9D45 /* Cardiology.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42767FA1E6DC1BF005A9D45 /* Cardiology.plist */; };
 		D42768291E6DC1BF005A9D45 /* CriticalCare.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42767FB1E6DC1BF005A9D45 /* CriticalCare.plist */; };
@@ -68,12 +76,6 @@
 		D427684E1E6DC1BF005A9D45 /* Neurologic.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42768231E6DC1BF005A9D45 /* Neurologic.plist */; };
 		D427684F1E6DC1BF005A9D45 /* Renal.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42768241E6DC1BF005A9D45 /* Renal.plist */; };
 		D42768501E6DC1BF005A9D45 /* Respiratory.plist in Resources */ = {isa = PBXBuildFile; fileRef = D42768251E6DC1BF005A9D45 /* Respiratory.plist */; };
-		D42768BF1E6DC264005A9D45 /* CardiologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D42768631E6DC263005A9D45 /* CardiologyTVC.m */; };
-		D42769441E6DC292005A9D45 /* MegePlistLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = D427691A1E6DC292005A9D45 /* MegePlistLoad.m */; };
-		D42769451E6DC292005A9D45 /* MgPlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D427691C1E6DC292005A9D45 /* MgPlistModel.m */; };
-		D42769461E6DC292005A9D45 /* MedicalGeneralTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D427692F1E6DC292005A9D45 /* MedicalGeneralTVC.m */; };
-		D427694D1E6DC6C6005A9D45 /* CriticalCareTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D427694C1E6DC6C6005A9D45 /* CriticalCareTVC.m */; };
-		D42769501E6DC7AD005A9D45 /* EndocrinologyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D427694F1E6DC7AD005A9D45 /* EndocrinologyTVC.m */; };
 		D4485BDA1E5551250012523C /* ListitemLoadAndSaveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4485BD81E5551250012523C /* ListitemLoadAndSaveModel.m */; };
 		D4485BDD1E559B360012523C /* LoadMoreList.m in Sources */ = {isa = PBXBuildFile; fileRef = D4485BDC1E559B360012523C /* LoadMoreList.m */; };
 		D46598DF1E66932500315237 /* BaseSettingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D46598DE1E66932500315237 /* BaseSettingTVC.m */; };
@@ -81,9 +83,15 @@
 		D473B9041E656102009C5A8C /* MedicGenTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D473B9031E656102009C5A8C /* MedicGenTVC.m */; };
 		D473B9071E656833009C5A8C /* JyProductTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D473B9061E656833009C5A8C /* JyProductTVC.m */; };
 		D473B90A1E6568F2009C5A8C /* AboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D473B9091E6568F2009C5A8C /* AboutUsVC.m */; };
-		D477B42D1E680C27007DDC45 /* CategoryTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D477B42C1E680C27007DDC45 /* CategoryTVC.m */; };
+		D473BF591E713ABC00951CC3 /* GlashmpfbzVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D473BF581E713ABC00951CC3 /* GlashmpfbzVC.m */; };
+		D473BF5D1E71432300951CC3 /* Glashmpfbz.plist in Resources */ = {isa = PBXBuildFile; fileRef = D473BF5C1E71432300951CC3 /* Glashmpfbz.plist */; };
+		D473BF601E722A8200951CC3 /* GlasghmpfbzPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = D473BF5F1E722A8200951CC3 /* GlasghmpfbzPlist.m */; };
+		D473BF631E7239F600951CC3 /* GlasghmStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D473BF621E7239F600951CC3 /* GlasghmStateModel.m */; };
+		D473BF661E723AF500951CC3 /* GlasghmpfbzPlistload.m in Sources */ = {isa = PBXBuildFile; fileRef = D473BF651E723AF500951CC3 /* GlasghmpfbzPlistload.m */; };
+		D473BF6C1E7241E700951CC3 /* secondLevelPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = D473BF6B1E7241E700951CC3 /* secondLevelPlist.m */; };
 		D4A798B71E5446EE006CDD48 /* CommonTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A798B61E5446EE006CDD48 /* CommonTVC.m */; };
 		D4A798CC1E544B96006CDD48 /* MoreTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A798CB1E544B96006CDD48 /* MoreTVC.m */; };
+		D4DEFBA31E726F3A00EB1BFD /* CommTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DEFBA21E726F3A00EB1BFD /* CommTVC.m */; };
 		D4EA089C1DFF7FC300F1CA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA089A1DFF7FC300F1CA9D /* Main.storyboard */; };
 		D4EA089E1DFF7FC300F1CA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4EA089D1DFF7FC300F1CA9D /* Assets.xcassets */; };
 		D4EA08A11DFF7FC300F1CA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EA089F1DFF7FC300F1CA9D /* LaunchScreen.storyboard */; };
@@ -117,18 +125,34 @@
 		D4052C7F1E6D9183002445CC /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailViewController.h; path = View/detailViewController.h; sourceTree = "<group>"; };
 		D4052C801E6D9183002445CC /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailViewController.m; path = View/detailViewController.m; sourceTree = "<group>"; };
 		D4052C821E6D91CE002445CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		D40F75641E6E88DD00955B87 /* GastroenterologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GastroenterologyTVC.h; sourceTree = "<group>"; };
-		D40F75651E6E88DD00955B87 /* GastroenterologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GastroenterologyTVC.m; sourceTree = "<group>"; };
-		D40F75671E6E8AF900955B87 /* HematologyOncologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HematologyOncologyTVC.h; sourceTree = "<group>"; };
-		D40F75681E6E8AF900955B87 /* HematologyOncologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HematologyOncologyTVC.m; sourceTree = "<group>"; };
 		D40F75921E6EBAA700955B87 /* AgeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeVC.h; sourceTree = "<group>"; };
 		D40F75931E6EBAA700955B87 /* AgeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeVC.m; sourceTree = "<group>"; };
 		D40F75991E6EFEFF00955B87 /* DailyNursingCare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DailyNursingCare.plist; sourceTree = "<group>"; };
 		D40F759B1E6EFF2100955B87 /* MedicalGenaral.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MedicalGenaral.plist; sourceTree = "<group>"; };
-		D40F759E1E6EFF6D00955B87 /* DailyNursingCareTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyNursingCareTVC.h; sourceTree = "<group>"; };
-		D40F759F1E6EFF6D00955B87 /* DailyNursingCareTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyNursingCareTVC.m; sourceTree = "<group>"; };
-		D42767AB1E6DB79E005A9D45 /* CateGoryBaseTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateGoryBaseTVC.h; sourceTree = "<group>"; };
-		D42767AC1E6DB79E005A9D45 /* CateGoryBaseTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateGoryBaseTVC.m; sourceTree = "<group>"; };
+		D40F75A61E6FE5F600955B87 /* CateGoryBaseTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateGoryBaseTVC.h; sourceTree = "<group>"; };
+		D40F75A71E6FE5F600955B87 /* CateGoryBaseTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CateGoryBaseTVC.m; sourceTree = "<group>"; };
+		D40F75A91E6FE5F600955B87 /* CategoryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTVC.h; sourceTree = "<group>"; };
+		D40F75AA1E6FE5F600955B87 /* CategoryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTVC.m; sourceTree = "<group>"; };
+		D40F75B11E6FE6A600955B87 /* GastroenterologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GastroenterologyTVC.h; sourceTree = "<group>"; };
+		D40F75B21E6FE6A600955B87 /* GastroenterologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GastroenterologyTVC.m; sourceTree = "<group>"; };
+		D40F75B41E6FE6DE00955B87 /* EndocrinologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndocrinologyTVC.h; path = MedicCalc/Classes/Category/MedicalSpecialty/Endocrinology/view/EndocrinologyTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75B51E6FE6DE00955B87 /* EndocrinologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EndocrinologyTVC.m; path = MedicCalc/Classes/Category/MedicalSpecialty/Endocrinology/view/EndocrinologyTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75B71E6FE71700955B87 /* MedicalGeneralTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MedicalGeneralTVC.h; path = MedicCalc/Classes/Category/MedicalGeneral/view/MedicalGeneralTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75B81E6FE71700955B87 /* MedicalGeneralTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MedicalGeneralTVC.m; path = MedicCalc/Classes/Category/MedicalGeneral/view/MedicalGeneralTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75BB1E6FE74700955B87 /* MegePlistLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MegePlistLoad.h; sourceTree = "<group>"; };
+		D40F75BC1E6FE74700955B87 /* MegePlistLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MegePlistLoad.m; sourceTree = "<group>"; };
+		D40F75BD1E6FE74700955B87 /* MgPlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgPlistModel.h; sourceTree = "<group>"; };
+		D40F75BE1E6FE74700955B87 /* MgPlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgPlistModel.m; sourceTree = "<group>"; };
+		D40F75C11E6FE78600955B87 /* CardiologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardiologyTVC.h; path = MedicCalc/Classes/Category/MedicalSpecialty/Cardiology/view/CardiologyTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75C21E6FE78600955B87 /* CardiologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardiologyTVC.m; path = MedicCalc/Classes/Category/MedicalSpecialty/Cardiology/view/CardiologyTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75C41E6FE7A100955B87 /* CriticalCareTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CriticalCareTVC.h; path = MedicCalc/Classes/Category/MedicalSpecialty/CriticalCare/view/CriticalCareTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75C51E6FE7A100955B87 /* CriticalCareTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CriticalCareTVC.m; path = MedicCalc/Classes/Category/MedicalSpecialty/CriticalCare/view/CriticalCareTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75C71E6FE7BB00955B87 /* HematologyOncologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HematologyOncologyTVC.h; path = MedicCalc/Classes/Category/MedicalSpecialty/HematologyOncology/view/HematologyOncologyTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75C81E6FE7BB00955B87 /* HematologyOncologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HematologyOncologyTVC.m; path = MedicCalc/Classes/Category/MedicalSpecialty/HematologyOncology/view/HematologyOncologyTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75CA1E6FE7CF00955B87 /* DailyNursingCareTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailyNursingCareTVC.h; path = MedicCalc/Classes/Category/DailyNursingCare/DailyNursingCareTVC.h; sourceTree = SOURCE_ROOT; };
+		D40F75CB1E6FE7CF00955B87 /* DailyNursingCareTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailyNursingCareTVC.m; path = MedicCalc/Classes/Category/DailyNursingCare/DailyNursingCareTVC.m; sourceTree = SOURCE_ROOT; };
+		D40F75CD1E6FEAA600955B87 /* AADatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AADatePicker.h; path = ../../../../../../../../../Downloads/datepicker/CustomDatePicker/CustomDatePicker/AACustomDatePicker/AADatePicker.h; sourceTree = "<group>"; };
+		D40F75CE1E6FEAA600955B87 /* AADatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AADatePicker.m; path = ../../../../../../../../../Downloads/datepicker/CustomDatePicker/CustomDatePicker/AACustomDatePicker/AADatePicker.m; sourceTree = "<group>"; };
 		D42767F91E6DC1BF005A9D45 /* Anesthesiology.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Anesthesiology.plist; sourceTree = "<group>"; };
 		D42767FA1E6DC1BF005A9D45 /* Cardiology.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cardiology.plist; sourceTree = "<group>"; };
 		D42767FB1E6DC1BF005A9D45 /* CriticalCare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CriticalCare.plist; sourceTree = "<group>"; };
@@ -171,18 +195,6 @@
 		D42768231E6DC1BF005A9D45 /* Neurologic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Neurologic.plist; sourceTree = "<group>"; };
 		D42768241E6DC1BF005A9D45 /* Renal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Renal.plist; sourceTree = "<group>"; };
 		D42768251E6DC1BF005A9D45 /* Respiratory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Respiratory.plist; sourceTree = "<group>"; };
-		D42768621E6DC263005A9D45 /* CardiologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardiologyTVC.h; sourceTree = "<group>"; };
-		D42768631E6DC263005A9D45 /* CardiologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardiologyTVC.m; sourceTree = "<group>"; };
-		D42769191E6DC292005A9D45 /* MegePlistLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MegePlistLoad.h; sourceTree = "<group>"; };
-		D427691A1E6DC292005A9D45 /* MegePlistLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MegePlistLoad.m; sourceTree = "<group>"; };
-		D427691B1E6DC292005A9D45 /* MgPlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgPlistModel.h; sourceTree = "<group>"; };
-		D427691C1E6DC292005A9D45 /* MgPlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgPlistModel.m; sourceTree = "<group>"; };
-		D427692E1E6DC292005A9D45 /* MedicalGeneralTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalGeneralTVC.h; sourceTree = "<group>"; };
-		D427692F1E6DC292005A9D45 /* MedicalGeneralTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalGeneralTVC.m; sourceTree = "<group>"; };
-		D427694B1E6DC6C6005A9D45 /* CriticalCareTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CriticalCareTVC.h; sourceTree = "<group>"; };
-		D427694C1E6DC6C6005A9D45 /* CriticalCareTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CriticalCareTVC.m; sourceTree = "<group>"; };
-		D427694E1E6DC7AD005A9D45 /* EndocrinologyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndocrinologyTVC.h; sourceTree = "<group>"; };
-		D427694F1E6DC7AD005A9D45 /* EndocrinologyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndocrinologyTVC.m; sourceTree = "<group>"; };
 		D4485BD81E5551250012523C /* ListitemLoadAndSaveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListitemLoadAndSaveModel.m; sourceTree = "<group>"; };
 		D4485BD91E5551250012523C /* ListitemLoadAndSaveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListitemLoadAndSaveModel.h; sourceTree = "<group>"; };
 		D4485BDB1E559B360012523C /* LoadMoreList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadMoreList.h; path = "Classes/More(更多)/LoadMoreList.h"; sourceTree = "<group>"; };
@@ -197,12 +209,23 @@
 		D473B9061E656833009C5A8C /* JyProductTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JyProductTVC.m; sourceTree = "<group>"; };
 		D473B9081E6568F2009C5A8C /* AboutUsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsVC.h; sourceTree = "<group>"; };
 		D473B9091E6568F2009C5A8C /* AboutUsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsVC.m; sourceTree = "<group>"; };
-		D477B42B1E680C27007DDC45 /* CategoryTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTVC.h; sourceTree = "<group>"; };
-		D477B42C1E680C27007DDC45 /* CategoryTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTVC.m; sourceTree = "<group>"; };
+		D473BF571E713ABC00951CC3 /* GlashmpfbzVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlashmpfbzVC.h; sourceTree = "<group>"; };
+		D473BF581E713ABC00951CC3 /* GlashmpfbzVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlashmpfbzVC.m; sourceTree = "<group>"; };
+		D473BF5C1E71432300951CC3 /* Glashmpfbz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Glashmpfbz.plist; sourceTree = "<group>"; };
+		D473BF5E1E722A8200951CC3 /* GlasghmpfbzPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlasghmpfbzPlist.h; sourceTree = "<group>"; };
+		D473BF5F1E722A8200951CC3 /* GlasghmpfbzPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlasghmpfbzPlist.m; sourceTree = "<group>"; };
+		D473BF611E7239F600951CC3 /* GlasghmStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlasghmStateModel.h; sourceTree = "<group>"; };
+		D473BF621E7239F600951CC3 /* GlasghmStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlasghmStateModel.m; sourceTree = "<group>"; };
+		D473BF641E723AF500951CC3 /* GlasghmpfbzPlistload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlasghmpfbzPlistload.h; sourceTree = "<group>"; };
+		D473BF651E723AF500951CC3 /* GlasghmpfbzPlistload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlasghmpfbzPlistload.m; sourceTree = "<group>"; };
+		D473BF6A1E7241E700951CC3 /* secondLevelPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondLevelPlist.h; sourceTree = "<group>"; };
+		D473BF6B1E7241E700951CC3 /* secondLevelPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondLevelPlist.m; sourceTree = "<group>"; };
 		D4A798B51E5446EE006CDD48 /* CommonTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonTVC.h; path = ../../../CommonTVC.h; sourceTree = "<group>"; };
 		D4A798B61E5446EE006CDD48 /* CommonTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonTVC.m; path = ../../../CommonTVC.m; sourceTree = "<group>"; };
 		D4A798CA1E544B96006CDD48 /* MoreTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreTVC.h; path = ../../MoreTVC.h; sourceTree = "<group>"; };
 		D4A798CB1E544B96006CDD48 /* MoreTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreTVC.m; path = ../../MoreTVC.m; sourceTree = "<group>"; };
+		D4DEFBA11E726F3A00EB1BFD /* CommTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommTVC.h; sourceTree = "<group>"; };
+		D4DEFBA21E726F3A00EB1BFD /* CommTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommTVC.m; sourceTree = "<group>"; };
 		D4EA088E1DFF7FC300F1CA9D /* MedicCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EA089B1DFF7FC300F1CA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4EA089D1DFF7FC300F1CA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -233,6 +256,7 @@
 		D40F756E1E6E8E7800955B87 /* AgeVC */ = {
 			isa = PBXGroup;
 			children = (
+				D40F75D01E6FF0AC00955B87 /* model */,
 				D40F75921E6EBAA700955B87 /* AgeVC.h */,
 				D40F75931E6EBAA700955B87 /* AgeVC.m */,
 			);
@@ -464,11 +488,102 @@
 		D40F759D1E6EFF3700955B87 /* DailyNursingCare */ = {
 			isa = PBXGroup;
 			children = (
-				D40F759E1E6EFF6D00955B87 /* DailyNursingCareTVC.h */,
-				D40F759F1E6EFF6D00955B87 /* DailyNursingCareTVC.m */,
+				D40F75CA1E6FE7CF00955B87 /* DailyNursingCareTVC.h */,
+				D40F75CB1E6FE7CF00955B87 /* DailyNursingCareTVC.m */,
 			);
 			name = DailyNursingCare;
 			path = Category/DailyNursingCare;
+			sourceTree = "<group>";
+		};
+		D40F75A31E6FE5F600955B87 /* CategoryBase */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75A41E6FE5F600955B87 /* Controller */,
+				D40F75A51E6FE5F600955B87 /* Model */,
+				D40F75A81E6FE5F600955B87 /* View */,
+			);
+			name = CategoryBase;
+			path = Classes/Category/CategoryBase;
+			sourceTree = "<group>";
+		};
+		D40F75A41E6FE5F600955B87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D40F75A51E6FE5F600955B87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75A61E6FE5F600955B87 /* CateGoryBaseTVC.h */,
+				D40F75A71E6FE5F600955B87 /* CateGoryBaseTVC.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D40F75A81E6FE5F600955B87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75A91E6FE5F600955B87 /* CategoryTVC.h */,
+				D40F75AA1E6FE5F600955B87 /* CategoryTVC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D40F75AD1E6FE6A600955B87 /* Gastroenterology */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75AE1E6FE6A600955B87 /* controller */,
+				D40F75AF1E6FE6A600955B87 /* model */,
+				D40F75B01E6FE6A600955B87 /* view */,
+			);
+			name = Gastroenterology;
+			path = MedicCalc/Classes/Category/MedicalSpecialty/Gastroenterology;
+			sourceTree = SOURCE_ROOT;
+		};
+		D40F75AE1E6FE6A600955B87 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D40F75AF1E6FE6A600955B87 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D40F75B01E6FE6A600955B87 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75B11E6FE6A600955B87 /* GastroenterologyTVC.h */,
+				D40F75B21E6FE6A600955B87 /* GastroenterologyTVC.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D40F75BA1E6FE74700955B87 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75BB1E6FE74700955B87 /* MegePlistLoad.h */,
+				D40F75BC1E6FE74700955B87 /* MegePlistLoad.m */,
+				D40F75BD1E6FE74700955B87 /* MgPlistModel.h */,
+				D40F75BE1E6FE74700955B87 /* MgPlistModel.m */,
+			);
+			name = model;
+			path = MedicCalc/Classes/Category/MedicalGeneral/model;
+			sourceTree = SOURCE_ROOT;
+		};
+		D40F75D01E6FF0AC00955B87 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F75CD1E6FEAA600955B87 /* AADatePicker.h */,
+				D40F75CE1E6FEAA600955B87 /* AADatePicker.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		D42767A91E6DB53C005A9D45 /* CateGoryItems */ = {
@@ -519,6 +634,7 @@
 		D427680A1E6DC1BF005A9D45 /* OthersPlist */ = {
 			isa = PBXGroup;
 			children = (
+				D473BF5C1E71432300951CC3 /* Glashmpfbz.plist */,
 				D427680B1E6DC1BF005A9D45 /* General.plist */,
 				D427680C1E6DC1BF005A9D45 /* Info.plist */,
 				D427680D1E6DC1BF005A9D45 /* NursingList.plist */,
@@ -568,11 +684,11 @@
 		D42768571E6DC263005A9D45 /* MedicalSpecialty */ = {
 			isa = PBXGroup;
 			children = (
+				D40F75AD1E6FE6A600955B87 /* Gastroenterology */,
 				D42768581E6DC263005A9D45 /* Anesthesiology */,
 				D427685E1E6DC263005A9D45 /* Cardiology */,
 				D42768641E6DC263005A9D45 /* CriticalCare */,
 				D427686A1E6DC263005A9D45 /* Endocrinology */,
-				D42768701E6DC263005A9D45 /* Gastroenterology */,
 				D42768761E6DC263005A9D45 /* HematologyOncology */,
 				D427687C1E6DC263005A9D45 /* Hepatology */,
 				D42768821E6DC263005A9D45 /* Infectious */,
@@ -648,8 +764,8 @@
 		D42768611E6DC263005A9D45 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D42768621E6DC263005A9D45 /* CardiologyTVC.h */,
-				D42768631E6DC263005A9D45 /* CardiologyTVC.m */,
+				D40F75C11E6FE78600955B87 /* CardiologyTVC.h */,
+				D40F75C21E6FE78600955B87 /* CardiologyTVC.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -681,8 +797,8 @@
 		D42768671E6DC263005A9D45 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D427694B1E6DC6C6005A9D45 /* CriticalCareTVC.h */,
-				D427694C1E6DC6C6005A9D45 /* CriticalCareTVC.m */,
+				D40F75C41E6FE7A100955B87 /* CriticalCareTVC.h */,
+				D40F75C51E6FE7A100955B87 /* CriticalCareTVC.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -714,41 +830,8 @@
 		D427686D1E6DC263005A9D45 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D427694E1E6DC7AD005A9D45 /* EndocrinologyTVC.h */,
-				D427694F1E6DC7AD005A9D45 /* EndocrinologyTVC.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		D42768701E6DC263005A9D45 /* Gastroenterology */ = {
-			isa = PBXGroup;
-			children = (
-				D42768711E6DC263005A9D45 /* controller */,
-				D42768721E6DC263005A9D45 /* model */,
-				D42768731E6DC263005A9D45 /* view */,
-			);
-			path = Gastroenterology;
-			sourceTree = "<group>";
-		};
-		D42768711E6DC263005A9D45 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		D42768721E6DC263005A9D45 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		D42768731E6DC263005A9D45 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				D40F75641E6E88DD00955B87 /* GastroenterologyTVC.h */,
-				D40F75651E6E88DD00955B87 /* GastroenterologyTVC.m */,
+				D40F75B41E6FE6DE00955B87 /* EndocrinologyTVC.h */,
+				D40F75B51E6FE6DE00955B87 /* EndocrinologyTVC.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -780,8 +863,8 @@
 		D42768791E6DC263005A9D45 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D40F75671E6E8AF900955B87 /* HematologyOncologyTVC.h */,
-				D40F75681E6E8AF900955B87 /* HematologyOncologyTVC.m */,
+				D40F75C71E6FE7BB00955B87 /* HematologyOncologyTVC.h */,
+				D40F75C81E6FE7BB00955B87 /* HematologyOncologyTVC.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1426,8 +1509,8 @@
 		D42769161E6DC292005A9D45 /* MedicalGeneral */ = {
 			isa = PBXGroup;
 			children = (
+				D40F75BA1E6FE74700955B87 /* model */,
 				D42769171E6DC292005A9D45 /* controller */,
-				D42769181E6DC292005A9D45 /* model */,
 				D427691D1E6DC292005A9D45 /* view */,
 			);
 			name = MedicalGeneral;
@@ -1441,34 +1524,54 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
-		D42769181E6DC292005A9D45 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				D42769191E6DC292005A9D45 /* MegePlistLoad.h */,
-				D427691A1E6DC292005A9D45 /* MegePlistLoad.m */,
-				D427691B1E6DC292005A9D45 /* MgPlistModel.h */,
-				D427691C1E6DC292005A9D45 /* MgPlistModel.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
 		D427691D1E6DC292005A9D45 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				D427692E1E6DC292005A9D45 /* MedicalGeneralTVC.h */,
-				D427692F1E6DC292005A9D45 /* MedicalGeneralTVC.m */,
+				D40F75B71E6FE71700955B87 /* MedicalGeneralTVC.h */,
+				D40F75B81E6FE71700955B87 /* MedicalGeneralTVC.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		D427694A1E6DC631005A9D45 /* CategoryBase */ = {
+		D473BF531E713A6000951CC3 /* GlashmpfbzVC */ = {
 			isa = PBXGroup;
 			children = (
-				D4A798C61E54496D006CDD48 /* Controller */,
-				D4A798C71E54496D006CDD48 /* Model */,
-				D4A798C81E54496D006CDD48 /* View */,
+				D473BF541E713A6000951CC3 /* controller */,
+				D473BF551E713A6000951CC3 /* model */,
+				D473BF561E713A6000951CC3 /* view */,
 			);
-			name = CategoryBase;
+			path = GlashmpfbzVC;
+			sourceTree = "<group>";
+		};
+		D473BF541E713A6000951CC3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D473BF551E713A6000951CC3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D473BF5E1E722A8200951CC3 /* GlasghmpfbzPlist.h */,
+				D473BF5F1E722A8200951CC3 /* GlasghmpfbzPlist.m */,
+				D473BF611E7239F600951CC3 /* GlasghmStateModel.h */,
+				D473BF621E7239F600951CC3 /* GlasghmStateModel.m */,
+				D473BF641E723AF500951CC3 /* GlasghmpfbzPlistload.h */,
+				D473BF651E723AF500951CC3 /* GlasghmpfbzPlistload.m */,
+				D473BF6A1E7241E700951CC3 /* secondLevelPlist.h */,
+				D473BF6B1E7241E700951CC3 /* secondLevelPlist.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D473BF561E713A6000951CC3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D473BF571E713ABC00951CC3 /* GlashmpfbzVC.h */,
+				D473BF581E713ABC00951CC3 /* GlashmpfbzVC.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		D477B41C1E67F287007DDC45 /* Model */ = {
@@ -1521,8 +1624,8 @@
 		D4A798B41E5446A4006CDD48 /* CategoryTVC */ = {
 			isa = PBXGroup;
 			children = (
+				D40F75A31E6FE5F600955B87 /* CategoryBase */,
 				D42767A91E6DB53C005A9D45 /* CateGoryItems */,
-				D427694A1E6DC631005A9D45 /* CategoryBase */,
 			);
 			name = CategoryTVC;
 			sourceTree = "<group>";
@@ -1593,6 +1696,8 @@
 			children = (
 				D4A798B61E5446EE006CDD48 /* CommonTVC.m */,
 				D4A798B51E5446EE006CDD48 /* CommonTVC.h */,
+				D4DEFBA11E726F3A00EB1BFD /* CommTVC.h */,
+				D4DEFBA21E726F3A00EB1BFD /* CommTVC.m */,
 			);
 			name = View;
 			path = "MedicCalc/Classes/More(更多)/View";
@@ -1619,6 +1724,7 @@
 		D4A798C51E544960006CDD48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D473BF531E713A6000951CC3 /* GlashmpfbzVC */,
 				D40F756E1E6E8E7800955B87 /* AgeVC */,
 				D40F75711E6E8E7800955B87 /* ByesdlVC */,
 				D40F75721E6E8E7800955B87 /* BzbglVC */,
@@ -1654,34 +1760,6 @@
 			path = "Classes/All(全部)/View";
 			sourceTree = "<group>";
 		};
-		D4A798C61E54496D006CDD48 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controller;
-			path = "Classes/Category(分类)/Controller";
-			sourceTree = "<group>";
-		};
-		D4A798C71E54496D006CDD48 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D42767AB1E6DB79E005A9D45 /* CateGoryBaseTVC.h */,
-				D42767AC1E6DB79E005A9D45 /* CateGoryBaseTVC.m */,
-			);
-			name = Model;
-			path = "Classes/Category(分类)/Model";
-			sourceTree = "<group>";
-		};
-		D4A798C81E54496D006CDD48 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D477B42B1E680C27007DDC45 /* CategoryTVC.h */,
-				D477B42C1E680C27007DDC45 /* CategoryTVC.m */,
-			);
-			name = View;
-			path = "Classes/Category(分类)/View";
-			sourceTree = "<group>";
-		};
 		D4A798C91E544A2B006CDD48 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -1711,9 +1789,9 @@
 			isa = PBXGroup;
 			children = (
 				D4A798C91E544A2B006CDD48 /* Main */,
+				D4A798B81E5446F3006CDD48 /* CommonTVC */,
 				D4A798B01E544629006CDD48 /* ALLTVC */,
 				D4A798BC1E544746006CDD48 /* MoreVC */,
-				D4A798B81E5446F3006CDD48 /* CommonTVC */,
 				D4A798B41E5446A4006CDD48 /* CategoryTVC */,
 				D4EA08911DFF7FC300F1CA9D /* Supporting Files */,
 			);
@@ -1886,6 +1964,7 @@
 				D42768281E6DC1BF005A9D45 /* Cardiology.plist in Resources */,
 				D42768371E6DC1BF005A9D45 /* Trauma.plist in Resources */,
 				D427683B1E6DC1BF005A9D45 /* Specialist.plist in Resources */,
+				D473BF5D1E71432300951CC3 /* Glashmpfbz.plist in Resources */,
 				D427683F1E6DC1BF005A9D45 /* download.png in Resources */,
 				D42768311E6DC1BF005A9D45 /* Ob-gyn.plist in Resources */,
 				D40F759C1E6EFF2100955B87 /* MedicalGenaral.plist in Resources */,
@@ -1907,8 +1986,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40F75C31E6FE78600955B87 /* CardiologyTVC.m in Sources */,
+				D40F75CC1E6FE7CF00955B87 /* DailyNursingCareTVC.m in Sources */,
 				D4485BDA1E5551250012523C /* ListitemLoadAndSaveModel.m in Sources */,
-				D42767AD1E6DB79E005A9D45 /* CateGoryBaseTVC.m in Sources */,
+				D40F75C01E6FE74700955B87 /* MgPlistModel.m in Sources */,
+				D40F75AB1E6FE5F600955B87 /* CateGoryBaseTVC.m in Sources */,
+				D4DEFBA31E726F3A00EB1BFD /* CommTVC.m in Sources */,
 				D4A798CC1E544B96006CDD48 /* MoreTVC.m in Sources */,
 				D4052C671E6D8F9A002445CC /* AppDelegate.m in Sources */,
 				D4052C811E6D9183002445CC /* detailViewController.m in Sources */,
@@ -1918,32 +2001,35 @@
 				D4F3C4A51E5AD10400F5BC61 /* SettingItemArrow.m in Sources */,
 				D4052C701E6D8FCC002445CC /* TotalViewController.m in Sources */,
 				D4052C5E1E6D8F56002445CC /* CSPlistTool.m in Sources */,
-				D40F75661E6E88DD00955B87 /* GastroenterologyTVC.m in Sources */,
+				D40F75AC1E6FE5F600955B87 /* CategoryTVC.m in Sources */,
 				D4A798B71E5446EE006CDD48 /* CommonTVC.m in Sources */,
-				D42769501E6DC7AD005A9D45 /* EndocrinologyTVC.m in Sources */,
-				D42769461E6DC292005A9D45 /* MedicalGeneralTVC.m in Sources */,
-				D42769451E6DC292005A9D45 /* MgPlistModel.m in Sources */,
-				D42768BF1E6DC264005A9D45 /* CardiologyTVC.m in Sources */,
+				D473BF631E7239F600951CC3 /* GlasghmStateModel.m in Sources */,
+				D473BF601E722A8200951CC3 /* GlasghmpfbzPlist.m in Sources */,
+				D40F75B61E6FE6DE00955B87 /* EndocrinologyTVC.m in Sources */,
+				D473BF591E713ABC00951CC3 /* GlashmpfbzVC.m in Sources */,
 				D473B9041E656102009C5A8C /* MedicGenTVC.m in Sources */,
 				D4052C6A1E6D8F9A002445CC /* NSDictionary+Log.m in Sources */,
 				D4F3C4C01E5B413400F5BC61 /* SettingGroup.m in Sources */,
 				D4F3C4A81E5AD11800F5BC61 /* SettingItemSwitch.m in Sources */,
+				D473BF6C1E7241E700951CC3 /* secondLevelPlist.m in Sources */,
 				D4052C6D1E6D8FBF002445CC /* ViewController.m in Sources */,
+				D40F75B91E6FE71700955B87 /* MedicalGeneralTVC.m in Sources */,
+				D40F75CF1E6FEAA600955B87 /* AADatePicker.m in Sources */,
 				D4052C5D1E6D8F56002445CC /* CSPlistModel.m in Sources */,
 				D473B90A1E6568F2009C5A8C /* AboutUsVC.m in Sources */,
-				D40F75A01E6EFF6D00955B87 /* DailyNursingCareTVC.m in Sources */,
+				D40F75B31E6FE6A600955B87 /* GastroenterologyTVC.m in Sources */,
+				D40F75BF1E6FE74700955B87 /* MegePlistLoad.m in Sources */,
 				D40F75941E6EBAA700955B87 /* AgeVC.m in Sources */,
+				D473BF661E723AF500951CC3 /* GlasghmpfbzPlistload.m in Sources */,
 				D4F3C49C1E5AB71F00F5BC61 /* SettingItem.m in Sources */,
+				D40F75C61E6FE7A100955B87 /* CriticalCareTVC.m in Sources */,
 				D4F3C4AE1E5AD78700F5BC61 /* MoreSettingCell.m in Sources */,
-				D477B42D1E680C27007DDC45 /* CategoryTVC.m in Sources */,
 				D4052C5F1E6D8F56002445CC /* PlistLoad.m in Sources */,
 				D46598DF1E66932500315237 /* BaseSettingTVC.m in Sources */,
 				D4052C5C1E6D8F56002445CC /* CSPlistItemModel.m in Sources */,
-				D42769441E6DC292005A9D45 /* MegePlistLoad.m in Sources */,
 				D4052C721E6D8FDA002445CC /* main.m in Sources */,
 				D4052C691E6D8F9A002445CC /* NSArray+Log.m in Sources */,
-				D427694D1E6DC6C6005A9D45 /* CriticalCareTVC.m in Sources */,
-				D40F75691E6E8AF900955B87 /* HematologyOncologyTVC.m in Sources */,
+				D40F75C91E6FE7BB00955B87 /* HematologyOncologyTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

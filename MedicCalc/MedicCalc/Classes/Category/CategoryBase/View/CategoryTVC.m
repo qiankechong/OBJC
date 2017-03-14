@@ -121,11 +121,12 @@
     if ([title isEqualToString:@"日常护理"]) {
         DailyNursingCareTVC *vc = [[DailyNursingCareTVC alloc] init];
         vc.plistName = @"DailyNursingCare.plist";
-        
-        //        [self setHidesBottomBarWhenPushed:YES];
+ 
         [self.navigationController pushViewController:vc animated:YES];
+//        [self.navigationController presentViewController:vc animated:YES completion:^{NSLog(@"完成");}];
     }
 
+    
     else if ([title isEqualToString:@"医学通用公式"]) {
         MedicalGeneralTVC *vc = [[MedicalGeneralTVC alloc] init];
         vc.plistName = @"MedicalGenaral.plist";

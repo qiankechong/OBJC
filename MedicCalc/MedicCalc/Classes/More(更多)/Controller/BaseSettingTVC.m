@@ -42,7 +42,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.title = _viewTitle;
     //设置组间距
     self.tableView.sectionFooterHeight = 0;
     self.tableView.sectionHeaderHeight = 15;

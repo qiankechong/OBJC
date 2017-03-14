@@ -16,5 +16,6 @@
 
 @interface BaseSettingTVC : UITableViewController
 -(NSArray * )getGroups;
+@property(nonatomic,copy)NSString  *viewTitle;
 
 @end

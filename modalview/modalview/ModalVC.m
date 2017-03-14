@@ -1,18 +1,23 @@
 //
-//  DailyNursingCareTVC.m
-//  MedicCalc
+//  ModalVC.m
+//  ModalView
 //
-//  Created by Jonnyqian on 2017/3/7.
+//  Created by Jonnyqian on 2017/3/13.
 //  Copyright © 2017年 Jonnyqian. All rights reserved.
 //
 
-#import "DailyNursingCareTVC.h"
+#import "ModalVC.h"
 
-@interface DailyNursingCareTVC ()
+@interface ModalVC ()
 
 @end
 
-@implementation DailyNursingCareTVC
+@implementation ModalVC
+- (IBAction)Exit:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"GO BACK");
+    }];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
